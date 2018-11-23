@@ -26,7 +26,6 @@ Route119_MapScript1_1F444D: @ 81F444D
 
 Route119_MapScript_HighlightFeebas:
 	callnative HighlightFeebasSpots
-	special DrawWholeMapView
 	end
 
 Route119_EventScript_1F4466:: @ 81F4466
