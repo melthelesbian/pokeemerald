@@ -1,7 +1,6 @@
 #include "global.h"
 #include "metatile_behavior.h"
 #include "fieldmap.h"
-#include "main.h"
 #include "wild_encounter.h"
 
 #define NUM_FEEBAS_SPOTS    6
