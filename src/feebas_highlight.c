@@ -42,5 +42,4 @@ void HighlightFeebasSpots() {
             }
         }
     }
-    return;
 }
