@@ -28,8 +28,8 @@ extern const u8 EventScript_RepelWoreOff[];
 #define NUM_FEEBAS_SPOTS    6
 
 // this file's functions
-static u16 FeebasRandom(void);
-static void FeebasSeedRng(u16 seed);
+u16 FeebasRandom(void);
+void FeebasSeedRng(u16 seed);
 static bool8 IsWildLevelAllowedByRepel(u8 level);
 static void ApplyFluteEncounterRateMod(u32 *encRate);
 static void ApplyCleanseTagEncounterRateMod(u32 *encRate);
@@ -4679,13 +4679,13 @@ static bool8 CheckFeebas(void)
 // The number 1103515245 comes from the example implementation of rand and srand
 // in the ISO C standard.
 
-static u16 FeebasRandom(void)
+u16 FeebasRandom(void)
 {
     sFeebasRngValue = (1103515245 * sFeebasRngValue) + 12345;
     return sFeebasRngValue >> 16;
 }
 
-static void FeebasSeedRng(u16 seed)
+void FeebasSeedRng(u16 seed)
 {
     sFeebasRngValue = seed;
 }

@@ -1,6 +1,7 @@
 Route119_MapScripts:: @ 81F4424
 	map_script 5, Route119_MapScript1_1F442F
 	map_script 3, Route119_MapScript1_1F444D
+	map_script 1, Route119_MapScript_HighlightFeebas
 	.byte 0
 
 Route119_MapScript1_1F442F: @ 81F442F
@@ -21,6 +22,11 @@ Route119_MapScript1_1F444D: @ 81F444D
 	compare VAR_WEATHER_INSTITUTE_STATE, 1
 	call_if 1, Route119_EventScript_1F4466
 	special SetRoute119Weather
+	end
+
+Route119_MapScript_HighlightFeebas:
+	callnative HighlightFeebasSpots
+	special DrawWholeMapView
 	end
 
 Route119_EventScript_1F4466:: @ 81F4466

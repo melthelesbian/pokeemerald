@@ -41,4 +41,6 @@ u16 GetLocalWildMon(bool8 *isWaterMon);
 u16 GetLocalWaterMon(void);
 bool8 UpdateRepelCounter(void);
 
+void FeebasSeedRng(u16 seed);
+u16 FeebasRandom(void);
 #endif // GUARD_WILD_ENCOUNTER_H

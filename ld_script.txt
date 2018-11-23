@@ -298,6 +298,7 @@ SECTIONS {
         src/unk_transition.o(.text);
         src/international_string_util.o(.text);
         asm/international_string_util.o(.text);
+        src/feebas_highlight.o(.text);
     } =0
 
     script_data :
