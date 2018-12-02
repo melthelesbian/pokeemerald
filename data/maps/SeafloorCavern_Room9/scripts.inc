@@ -26,7 +26,7 @@ SeafloorCavern_Room9_EventScript_234DC9:: @ 8234DC9
 	applymovement VAR_0x8004, SeafloorCavern_Room9_Movement_27259E
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_23512C, 4
-	trainerbattle 3, TRAINER_ARCHIE, 0, SeafloorCavern_Room9_Text_2351BC
+	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_2351BC
 	msgbox SeafloorCavern_Room9_Text_2351E5, 4
 	setweather 0
 	doweather

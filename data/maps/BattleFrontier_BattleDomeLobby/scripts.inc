@@ -487,13 +487,11 @@ BattleFrontier_OutsideWest_EventScript_249E19:: @ 8249E19
 	end
 
 BattleFrontier_OutsideWest_EventScript_249E22:: @ 8249E22
-	loadword 0, BattleFrontier_OutsideWest_Text_24AB44
-	callstd 2
+	msgbox BattleFrontier_OutsideWest_Text_24AB44, 2
 	end
 
 BattleFrontier_OutsideWest_EventScript_249E2B:: @ 8249E2B
-	loadword 0, BattleFrontier_OutsideWest_Text_24AB75
-	callstd 2
+	msgbox BattleFrontier_OutsideWest_Text_24AB75, 2
 	end
 
 BattleFrontier_BattleDomeLobby_EventScript_249E34:: @ 8249E34
