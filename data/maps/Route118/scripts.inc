@@ -187,7 +187,7 @@ Route118_Movement_1F3F7E: @ 81F3F7E
 	step_end
 
 Route118_EventScript_1F3F87:: @ 81F3F87
-	trainerbattle_normal TRAINER_ROSE_1, Route118_Text_29D290, Route118_Text_29D2D8, Route118_EventScript_1F3FB3
+	trainerbattle_single TRAINER_ROSE_1, Route118_Text_29D290, Route118_Text_29D2D8, Route118_EventScript_1F3FB3
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route118_EventScript_1F3FD2
@@ -212,17 +212,17 @@ Route118_EventScript_1F3FD2:: @ 81F3FD2
 	end
 
 Route118_EventScript_1F3FE9:: @ 81F3FE9
-	trainerbattle_normal TRAINER_BARNY, Route118_Text_29D515, Route118_Text_29D55C
+	trainerbattle_single TRAINER_BARNY, Route118_Text_29D515, Route118_Text_29D55C
 	msgbox Route118_Text_29D587, 6
 	end
 
 Route118_EventScript_1F4000:: @ 81F4000
-	trainerbattle_normal TRAINER_WADE, Route118_Text_29D5DF, Route118_Text_29D64C
+	trainerbattle_single TRAINER_WADE, Route118_Text_29D5DF, Route118_Text_29D64C
 	msgbox Route118_Text_29D663, 6
 	end
 
 Route118_EventScript_1F4017:: @ 81F4017
-	trainerbattle_normal TRAINER_DALTON_1, Route118_Text_29D6AF, Route118_Text_29D6CD, Route118_EventScript_1F4043
+	trainerbattle_single TRAINER_DALTON_1, Route118_Text_29D6AF, Route118_Text_29D6CD, Route118_EventScript_1F4043
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route118_EventScript_1F4062
@@ -247,17 +247,17 @@ Route118_EventScript_1F4062:: @ 81F4062
 	end
 
 Route118_EventScript_1F4079:: @ 81F4079
-	trainerbattle_normal TRAINER_PERRY, Route118_Text_29D41D, Route118_Text_29D45B
+	trainerbattle_single TRAINER_PERRY, Route118_Text_29D41D, Route118_Text_29D45B
 	msgbox Route118_Text_29D46C, 6
 	end
 
 Route118_EventScript_1F4090:: @ 81F4090
-	trainerbattle_normal TRAINER_CHESTER, Route118_Text_29D4A6, Route118_Text_29D4C4
+	trainerbattle_single TRAINER_CHESTER, Route118_Text_29D4A6, Route118_Text_29D4C4
 	msgbox Route118_Text_29D4DA, 6
 	end
 
 Route118_EventScript_1F40A7:: @ 81F40A7
-	trainerbattle_normal TRAINER_DEANDRE, Route118_Text_29D81B, Route118_Text_29D83C
+	trainerbattle_single TRAINER_DEANDRE, Route118_Text_29D81B, Route118_Text_29D83C
 	msgbox Route118_Text_29D872, 6
 	end
 
