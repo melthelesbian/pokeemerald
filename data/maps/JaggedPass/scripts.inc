@@ -98,7 +98,7 @@ JaggedPass_EventScript_230766:: @ 8230766
 	end
 
 JaggedPass_EventScript_230785:: @ 8230785
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ERIC, 0, JaggedPass_Text_230888, JaggedPass_Text_2308FF
+	trainerbattle_normal TRAINER_ERIC, JaggedPass_Text_230888, JaggedPass_Text_2308FF
 	msgbox JaggedPass_Text_230916, MSGBOX_AUTOCLOSE
 	end
 
@@ -145,12 +145,12 @@ JaggedPass_EventScript_230843:: @ 8230843
 	end
 
 JaggedPass_EventScript_23085A:: @ 823085A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JULIO, 0, JaggedPass_Text_230DF7, JaggedPass_Text_230E38
+	trainerbattle_normal TRAINER_JULIO, JaggedPass_Text_230DF7, JaggedPass_Text_230E38
 	msgbox JaggedPass_Text_230E57, MSGBOX_AUTOCLOSE
 	end
 
 JaggedPass_EventScript_230871:: @ 8230871
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_AUTUMN, 0, JaggedPass_Text_230E8E, JaggedPass_Text_230ECD
+	trainerbattle_normal TRAINER_AUTUMN, JaggedPass_Text_230E8E, JaggedPass_Text_230ECD
 	msgbox JaggedPass_Text_230EE3, MSGBOX_AUTOCLOSE
 	end
 

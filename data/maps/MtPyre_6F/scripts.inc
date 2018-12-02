@@ -24,7 +24,7 @@ MtPyre_6F_EventScript_231D86:: @ 8231D86
 	end
 
 MtPyre_6F_EventScript_231D9D:: @ 8231D9D
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CEDRIC, 0, MtPyre_6F_Text_231F11, MtPyre_6F_Text_231F4A
+	trainerbattle_normal TRAINER_CEDRIC, MtPyre_6F_Text_231F11, MtPyre_6F_Text_231F4A
 	msgbox MtPyre_6F_Text_231F5C, MSGBOX_AUTOCLOSE
 	end
 

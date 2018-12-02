@@ -32,32 +32,32 @@ Route105_MapScript2_1EE240: @ 81EE240
 	.2byte 0
 
 Route105_EventScript_1EE24A:: @ 81EE24A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_FOSTER, 0, Route105_Text_295D0F, Route105_Text_295D62
+	trainerbattle_normal TRAINER_FOSTER, Route105_Text_295D0F, Route105_Text_295D62
 	msgbox Route105_Text_295DAB, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_1EE261:: @ 81EE261
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_LUIS, 0, Route105_Text_295DF5, Route105_Text_295E66
+	trainerbattle_normal TRAINER_LUIS, Route105_Text_295DF5, Route105_Text_295E66
 	msgbox Route105_Text_295E72, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_1EE278:: @ 81EE278
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DOMINIK, 0, Route105_Text_295EB7, Route105_Text_295EEA
+	trainerbattle_normal TRAINER_DOMINIK, Route105_Text_295EB7, Route105_Text_295EEA
 	msgbox Route105_Text_295F08, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_1EE28F:: @ 81EE28F
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BEVERLY, 0, Route105_Text_295F5C, Route105_Text_295FA0
+	trainerbattle_normal TRAINER_BEVERLY, Route105_Text_295F5C, Route105_Text_295FA0
 	msgbox Route105_Text_295FAE, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_1EE2A6:: @ 81EE2A6
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_IMANI, 0, Route105_Text_296025, Route105_Text_296059
+	trainerbattle_normal TRAINER_IMANI, Route105_Text_296025, Route105_Text_296059
 	msgbox Route105_Text_296076, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_1EE2BD:: @ 81EE2BD
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOSUE, 0, Route105_Text_29626F, Route105_Text_2962CB
+	trainerbattle_normal TRAINER_JOSUE, Route105_Text_29626F, Route105_Text_2962CB
 	msgbox Route105_Text_2962EC, MSGBOX_AUTOCLOSE
 	end
 

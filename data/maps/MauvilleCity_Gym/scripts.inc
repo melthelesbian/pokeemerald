@@ -215,27 +215,27 @@ MauvilleCity_Gym_EventScript_20E0B4:: @ 820E0B4
 	end
 
 MauvilleCity_Gym_EventScript_20E0B9:: @ 820E0B9
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KIRK, 0, MauvilleCity_Gym_Text_20E2BC, MauvilleCity_Gym_Text_20E2FC
+	trainerbattle_normal TRAINER_KIRK, MauvilleCity_Gym_Text_20E2BC, MauvilleCity_Gym_Text_20E2FC
 	msgbox MauvilleCity_Gym_Text_20E336, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_Gym_EventScript_20E0D0:: @ 820E0D0
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_SHAWN, 0, MauvilleCity_Gym_Text_20E369, MauvilleCity_Gym_Text_20E3A7
+	trainerbattle_normal TRAINER_SHAWN, MauvilleCity_Gym_Text_20E369, MauvilleCity_Gym_Text_20E3A7
 	msgbox MauvilleCity_Gym_Text_20E3C1, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_Gym_EventScript_20E0E7:: @ 820E0E7
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BEN, 0, MauvilleCity_Gym_Text_20E443, MauvilleCity_Gym_Text_20E469
+	trainerbattle_normal TRAINER_BEN, MauvilleCity_Gym_Text_20E443, MauvilleCity_Gym_Text_20E469
 	msgbox MauvilleCity_Gym_Text_20E47E, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_Gym_EventScript_20E0FE:: @ 820E0FE
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_VIVIAN, 0, MauvilleCity_Gym_Text_20E4BB, MauvilleCity_Gym_Text_20E4F4
+	trainerbattle_normal TRAINER_VIVIAN, MauvilleCity_Gym_Text_20E4BB, MauvilleCity_Gym_Text_20E4F4
 	msgbox MauvilleCity_Gym_Text_20E50F, MSGBOX_AUTOCLOSE
 	end
 
 MauvilleCity_Gym_EventScript_20E115:: @ 820E115
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ANGELO, 0, MauvilleCity_Gym_Text_20E593, MauvilleCity_Gym_Text_20E5A8
+	trainerbattle_normal TRAINER_ANGELO, MauvilleCity_Gym_Text_20E593, MauvilleCity_Gym_Text_20E5A8
 	msgbox MauvilleCity_Gym_Text_20E5C2, MSGBOX_AUTOCLOSE
 	end
 

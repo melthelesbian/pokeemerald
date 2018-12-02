@@ -6,7 +6,7 @@ AbandonedShip_Rooms_1F_EventScript_237A93:: @ 8237A93
 	end
 
 AbandonedShip_Rooms_1F_EventScript_237A9C:: @ 8237A9C
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DEMETRIUS, 0, AbandonedShip_Rooms_1F_Text_237D0C, AbandonedShip_Rooms_1F_Text_237D2A
+	trainerbattle_normal TRAINER_DEMETRIUS, AbandonedShip_Rooms_1F_Text_237D0C, AbandonedShip_Rooms_1F_Text_237D2A
 	msgbox AbandonedShip_Rooms_1F_Text_237D41, MSGBOX_AUTOCLOSE
 	end
 

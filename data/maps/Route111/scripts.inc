@@ -452,22 +452,22 @@ Route111_EventScript_1F11E4:: @ 81F11E4
 	end
 
 Route111_EventScript_1F1204:: @ 81F1204
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DREW, 0, Route111_Text_29878E, Route111_Text_29880A
+	trainerbattle_normal TRAINER_DREW, Route111_Text_29878E, Route111_Text_29880A
 	msgbox Route111_Text_298853, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F121B:: @ 81F121B
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_HEIDI, 0, Route111_Text_2988A3, Route111_Text_298908
+	trainerbattle_normal TRAINER_HEIDI, Route111_Text_2988A3, Route111_Text_298908
 	msgbox Route111_Text_29891B, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F1232:: @ 81F1232
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BEAU, 0, Route111_Text_29898E, Route111_Text_2989E6
+	trainerbattle_normal TRAINER_BEAU, Route111_Text_29898E, Route111_Text_2989E6
 	msgbox Route111_Text_298A03, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F1249:: @ 81F1249
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BECKY, 0, Route111_Text_298A65, Route111_Text_298AAF
+	trainerbattle_normal TRAINER_BECKY, Route111_Text_298A65, Route111_Text_298AAF
 	msgbox Route111_Text_298AC0, MSGBOX_AUTOCLOSE
 	end
 
@@ -494,17 +494,17 @@ Route111_EventScript_1F12AB:: @ 81F12AB
 	end
 
 Route111_EventScript_1F12C2:: @ 81F12C2
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TRAVIS, 0, Route111_Text_298DA9, Route111_Text_298DD8
+	trainerbattle_normal TRAINER_TRAVIS, Route111_Text_298DA9, Route111_Text_298DD8
 	msgbox Route111_Text_298DF1, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F12D9:: @ 81F12D9
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_IRENE, 0, Route111_Text_298E2F, Route111_Text_298E6E
+	trainerbattle_normal TRAINER_IRENE, Route111_Text_298E2F, Route111_Text_298E6E
 	msgbox Route111_Text_298E8C, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F12F0:: @ 81F12F0
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DAISUKE, 0, Route111_Text_298EE6, Route111_Text_298F14
+	trainerbattle_normal TRAINER_DAISUKE, Route111_Text_298EE6, Route111_Text_298F14
 	msgbox Route111_Text_298F26, MSGBOX_AUTOCLOSE
 	end
 
@@ -553,37 +553,37 @@ Route111_EventScript_1F13B4:: @ 81F13B4
 	end
 
 Route111_EventScript_1F13CB:: @ 81F13CB
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_HAYDEN, 0, Route111_Text_299682, Route111_Text_2996BE
+	trainerbattle_normal TRAINER_HAYDEN, Route111_Text_299682, Route111_Text_2996BE
 	msgbox Route111_Text_2996C5, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F13E2:: @ 81F13E2
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BIANCA, 0, Route111_Text_2996FE, Route111_Text_29973D
+	trainerbattle_normal TRAINER_BIANCA, Route111_Text_2996FE, Route111_Text_29973D
 	msgbox Route111_Text_29975D, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F13F9:: @ 81F13F9
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TYRON, 0, Route111_Text_299524, Route111_Text_299549
+	trainerbattle_normal TRAINER_TYRON, Route111_Text_299524, Route111_Text_299549
 	msgbox Route111_Text_299576, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F1410:: @ 81F1410
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CELINA, 0, Route111_Text_2995F0, Route111_Text_299625
+	trainerbattle_normal TRAINER_CELINA, Route111_Text_2995F0, Route111_Text_299625
 	msgbox Route111_Text_29964B, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F1427:: @ 81F1427
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CELIA, 0, Route111_Text_29934B, Route111_Text_299384
+	trainerbattle_normal TRAINER_CELIA, Route111_Text_29934B, Route111_Text_299384
 	msgbox Route111_Text_2993A7, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F143E:: @ 81F143E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRYAN, 0, Route111_Text_299401, Route111_Text_299431
+	trainerbattle_normal TRAINER_BRYAN, Route111_Text_299401, Route111_Text_299431
 	msgbox Route111_Text_29945F, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_1F1455:: @ 81F1455
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRANDEN, 0, Route111_Text_299493, Route111_Text_2994C5
+	trainerbattle_normal TRAINER_BRANDEN, Route111_Text_299493, Route111_Text_2994C5
 	msgbox Route111_Text_2994FB, MSGBOX_AUTOCLOSE
 	end
 

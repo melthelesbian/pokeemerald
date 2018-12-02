@@ -683,6 +683,15 @@
 	.endif
 	.endm
 
+	@ Starts a normal trainer battle
+	.macro trainerbattle_normal trainer, intro_text, lose_text
+	trainerbattle TRAINER_BATTLE_NORMAL, \trainer, 0, \intro_text, \lose_text
+	.endm
+
+	@ Starts a double trainer battle
+	.macro trainerbattle_double trainer, intro_text, lose_text, not_enough_pkmn_text
+	trainerbattle TRAINER_BATTLE_DOUBLE, \trainer, 0, \intro_text, \lose_text, \not_enough_pkmn_text
+	.endm
 
 	@ Starts a trainer battle using the battle information stored in RAM (usually by trainerbattle, which actually calls this command behind-the-scenes), and blocks script execution until the battle finishes.
 	.macro trainerbattlebegin

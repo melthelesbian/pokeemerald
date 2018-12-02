@@ -2,12 +2,12 @@ MtPyre_3F_MapScripts:: @ 8231752
 	.byte 0
 
 MtPyre_3F_EventScript_231753:: @ 8231753
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_WILLIAM, 0, MtPyre_3F_Text_2317E3, MtPyre_3F_Text_231853
+	trainerbattle_normal TRAINER_WILLIAM, MtPyre_3F_Text_2317E3, MtPyre_3F_Text_231853
 	msgbox MtPyre_3F_Text_231869, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_3F_EventScript_23176A:: @ 823176A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KAYLA, 0, MtPyre_3F_Text_2318A1, MtPyre_3F_Text_2318DD
+	trainerbattle_normal TRAINER_KAYLA, MtPyre_3F_Text_2318A1, MtPyre_3F_Text_2318DD
 	msgbox MtPyre_3F_Text_2318F2, MSGBOX_AUTOCLOSE
 	end
 

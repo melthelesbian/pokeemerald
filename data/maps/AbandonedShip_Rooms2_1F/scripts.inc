@@ -42,12 +42,12 @@ AbandonedShip_Rooms2_1F_EventScript_238154:: @ 8238154
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_23816F:: @ 823816F
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JANI, 0, AbandonedShip_Rooms2_1F_Text_2386B4, AbandonedShip_Rooms2_1F_Text_2386E8
+	trainerbattle_normal TRAINER_JANI, AbandonedShip_Rooms2_1F_Text_2386B4, AbandonedShip_Rooms2_1F_Text_2386E8
 	msgbox AbandonedShip_Rooms2_1F_Text_238708, MSGBOX_AUTOCLOSE
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_238186:: @ 8238186
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_GARRISON, 0, AbandonedShip_Rooms2_1F_Text_23873F, AbandonedShip_Rooms2_1F_Text_238779
+	trainerbattle_normal TRAINER_GARRISON, AbandonedShip_Rooms2_1F_Text_23873F, AbandonedShip_Rooms2_1F_Text_238779
 	msgbox AbandonedShip_Rooms2_1F_Text_2387A9, MSGBOX_AUTOCLOSE
 	end
 

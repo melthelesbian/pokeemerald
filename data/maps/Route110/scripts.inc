@@ -165,12 +165,12 @@ Route110_EventScript_1EF3E8:: @ 81EF3E8
 	end
 
 Route110_EventScript_1EF3F2:: @ 81EF3F2
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_EDWARD, 0, Route110_Text_29802B, Route110_Text_298064
+	trainerbattle_normal TRAINER_EDWARD, Route110_Text_29802B, Route110_Text_298064
 	msgbox Route110_Text_29808A, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_1EF409:: @ 81EF409
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JACLYN, 0, Route110_Text_2980B9, Route110_Text_2980E5
+	trainerbattle_normal TRAINER_JACLYN, Route110_Text_2980B9, Route110_Text_2980E5
 	msgbox Route110_Text_2980F8, MSGBOX_AUTOCLOSE
 	end
 
@@ -197,17 +197,17 @@ Route110_EventScript_1EF46B:: @ 81EF46B
 	end
 
 Route110_EventScript_1EF482:: @ 81EF482
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DALE, 0, Route110_Text_2982CC, Route110_Text_2982F5
+	trainerbattle_normal TRAINER_DALE, Route110_Text_2982CC, Route110_Text_2982F5
 	msgbox Route110_Text_298303, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_1EF499:: @ 81EF499
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JACOB, 0, Route110_Text_297B3F, Route110_Text_297B77
+	trainerbattle_normal TRAINER_JACOB, Route110_Text_297B3F, Route110_Text_297B77
 	msgbox Route110_Text_297B8F, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_1EF4B0:: @ 81EF4B0
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ANTHONY, 0, Route110_Text_297BE7, Route110_Text_297C0F
+	trainerbattle_normal TRAINER_ANTHONY, Route110_Text_297BE7, Route110_Text_297C0F
 	msgbox Route110_Text_297C1F, MSGBOX_AUTOCLOSE
 	end
 
@@ -234,7 +234,7 @@ Route110_EventScript_1EF512:: @ 81EF512
 	end
 
 Route110_EventScript_1EF529:: @ 81EF529
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JASMINE, 0, Route110_Text_297F93, Route110_Text_297FD0
+	trainerbattle_normal TRAINER_JASMINE, Route110_Text_297F93, Route110_Text_297FD0
 	msgbox Route110_Text_297FF1, MSGBOX_AUTOCLOSE
 	end
 
@@ -283,7 +283,7 @@ Route110_EventScript_1EF5ED:: @ 81EF5ED
 	end
 
 Route110_EventScript_1EF604:: @ 81EF604
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TIMMY, 0, Route110_Text_298525, Route110_Text_298559
+	trainerbattle_normal TRAINER_TIMMY, Route110_Text_298525, Route110_Text_298559
 	msgbox Route110_Text_298579, MSGBOX_AUTOCLOSE
 	end
 
@@ -291,17 +291,17 @@ Route110_EventScript_1EF61B:: @ 81EF61B
 	end
 
 Route110_EventScript_1EF61C:: @ 81EF61C
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KALEB, 0, Route110_Text_2986ED, Route110_Text_298735
+	trainerbattle_normal TRAINER_KALEB, Route110_Text_2986ED, Route110_Text_298735
 	msgbox Route110_Text_298755, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_1EF633:: @ 81EF633
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOSEPH, 0, Route110_Text_298642, Route110_Text_298686
+	trainerbattle_normal TRAINER_JOSEPH, Route110_Text_298642, Route110_Text_298686
 	msgbox Route110_Text_2986A9, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_1EF64A:: @ 81EF64A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ALYSSA, 0, Route110_Text_2985AB, Route110_Text_2985F9
+	trainerbattle_normal TRAINER_ALYSSA, Route110_Text_2985AB, Route110_Text_2985F9
 	msgbox Route110_Text_298612, MSGBOX_AUTOCLOSE
 	end
 

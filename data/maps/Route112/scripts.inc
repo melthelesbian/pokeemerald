@@ -61,7 +61,7 @@ Route112_EventScript_1F1E61:: @ 81F1E61
 	end
 
 Route112_EventScript_1F1E6A:: @ 81F1E6A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRICE, 0, Route112_Text_29978E, Route112_Text_2997CA
+	trainerbattle_normal TRAINER_BRICE, Route112_Text_29978E, Route112_Text_2997CA
 	msgbox Route112_Text_2997DC, MSGBOX_AUTOCLOSE
 	end
 
@@ -88,22 +88,22 @@ Route112_EventScript_1F1ECC:: @ 81F1ECC
 	end
 
 Route112_EventScript_1F1EE3:: @ 81F1EE3
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_LARRY, 0, Route112_Text_299A89, Route112_Text_299AAC
+	trainerbattle_normal TRAINER_LARRY, Route112_Text_299A89, Route112_Text_299AAC
 	msgbox Route112_Text_299AB4, MSGBOX_AUTOCLOSE
 	end
 
 Route112_EventScript_1F1EFA:: @ 81F1EFA
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CAROL, 0, Route112_Text_299AE4, Route112_Text_299B36
+	trainerbattle_normal TRAINER_CAROL, Route112_Text_299AE4, Route112_Text_299B36
 	msgbox Route112_Text_299B4C, MSGBOX_AUTOCLOSE
 	end
 
 Route112_EventScript_1F1F11:: @ 81F1F11
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRYANT, 0, Route112_Text_299BAE, Route112_Text_299BDF
+	trainerbattle_normal TRAINER_BRYANT, Route112_Text_299BAE, Route112_Text_299BDF
 	msgbox Route112_Text_299BFB, MSGBOX_AUTOCLOSE
 	end
 
 Route112_EventScript_1F1F28:: @ 81F1F28
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_SHAYLA, 0, Route112_Text_299C34, Route112_Text_299C8F
+	trainerbattle_normal TRAINER_SHAYLA, Route112_Text_299C34, Route112_Text_299C8F
 	msgbox Route112_Text_299CC6, MSGBOX_AUTOCLOSE
 	end
 

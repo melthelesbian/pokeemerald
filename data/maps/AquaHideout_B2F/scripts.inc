@@ -77,12 +77,12 @@ AquaHideout_B2F_EventScript_233EA5:: @ 8233EA5
 	end
 
 AquaHideout_B2F_EventScript_233EAF:: @ 8233EAF
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_GRUNT_22, 0, AquaHideout_B2F_Text_23412D, AquaHideout_B2F_Text_2341CE
+	trainerbattle_normal TRAINER_GRUNT_22, AquaHideout_B2F_Text_23412D, AquaHideout_B2F_Text_2341CE
 	msgbox AquaHideout_B2F_Text_2341FE, MSGBOX_AUTOCLOSE
 	end
 
 AquaHideout_B2F_EventScript_233EC6:: @ 8233EC6
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_GRUNT_26, 0, AquaHideout_B2F_Text_23426F, AquaHideout_B2F_Text_2342CC
+	trainerbattle_normal TRAINER_GRUNT_26, AquaHideout_B2F_Text_23426F, AquaHideout_B2F_Text_2342CC
 	msgbox AquaHideout_B2F_Text_2342FF, MSGBOX_AUTOCLOSE
 	end
 

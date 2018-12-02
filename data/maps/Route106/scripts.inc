@@ -6,12 +6,12 @@ Route106_EventScript_1EE48A:: @ 81EE48A
 	end
 
 Route106_EventScript_1EE493:: @ 81EE493
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DOUGLAS, 0, Route106_Text_2965BB, Route106_Text_2965FD
+	trainerbattle_normal TRAINER_DOUGLAS, Route106_Text_2965BB, Route106_Text_2965FD
 	msgbox Route106_Text_296608, MSGBOX_AUTOCLOSE
 	end
 
 Route106_EventScript_1EE4AA:: @ 81EE4AA
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KYLA, 0, Route106_Text_296628, Route106_Text_296674
+	trainerbattle_normal TRAINER_KYLA, Route106_Text_296628, Route106_Text_296674
 	msgbox Route106_Text_29669E, MSGBOX_AUTOCLOSE
 	end
 
@@ -38,7 +38,7 @@ Route106_EventScript_1EE50C:: @ 81EE50C
 	end
 
 Route106_EventScript_1EE523:: @ 81EE523
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_NED, 0, Route106_Text_2964D4, Route106_Text_296553
+	trainerbattle_normal TRAINER_NED, Route106_Text_2964D4, Route106_Text_296553
 	msgbox Route106_Text_296588, MSGBOX_AUTOCLOSE
 	end
 

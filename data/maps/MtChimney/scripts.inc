@@ -411,12 +411,12 @@ MtChimney_EventScript_22F065:: @ 822F065
 	end
 
 MtChimney_EventScript_22F06E:: @ 822F06E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TABITHA_2, 0, MtChimney_Text_22F6AA, MtChimney_Text_22F72C
+	trainerbattle_normal TRAINER_TABITHA_2, MtChimney_Text_22F6AA, MtChimney_Text_22F72C
 	msgbox MtChimney_Text_22F76D, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_22F085:: @ 822F085
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_GRUNT_31, 0, MtChimney_Text_22F7A2, MtChimney_Text_22F83A
+	trainerbattle_normal TRAINER_GRUNT_31, MtChimney_Text_22F7A2, MtChimney_Text_22F83A
 	msgbox MtChimney_Text_22F859, MSGBOX_AUTOCLOSE
 	end
 
@@ -509,22 +509,22 @@ MtChimney_EventScript_22F195:: @ 822F195
 	end
 
 MtChimney_EventScript_22F1AC:: @ 822F1AC
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MELISSA, 0, MtChimney_Text_23022A, MtChimney_Text_23026D
+	trainerbattle_normal TRAINER_MELISSA, MtChimney_Text_23022A, MtChimney_Text_23026D
 	msgbox MtChimney_Text_230292, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_22F1C3:: @ 822F1C3
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_SHEILA, 0, MtChimney_Text_2302BD, MtChimney_Text_230304
+	trainerbattle_normal TRAINER_SHEILA, MtChimney_Text_2302BD, MtChimney_Text_230304
 	msgbox MtChimney_Text_23033A, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_22F1DA:: @ 822F1DA
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_SHIRLEY, 0, MtChimney_Text_2303DF, MtChimney_Text_230436
+	trainerbattle_normal TRAINER_SHIRLEY, MtChimney_Text_2303DF, MtChimney_Text_230436
 	msgbox MtChimney_Text_230463, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_22F1F1:: @ 822F1F1
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_GRUNT_24, 0, MtChimney_Text_22F8B6, MtChimney_Text_22F921
+	trainerbattle_normal TRAINER_GRUNT_24, MtChimney_Text_22F8B6, MtChimney_Text_22F921
 	msgbox MtChimney_Text_22F93A, MSGBOX_AUTOCLOSE
 	end
 

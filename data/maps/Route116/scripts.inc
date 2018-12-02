@@ -248,12 +248,12 @@ Route116_Movement_1F2E7E: @ 81F2E7E
 	step_end
 
 Route116_EventScript_1F2E89:: @ 81F2E89
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOEY, 0, Route116_Text_29BB79, Route116_Text_29BB9A
+	trainerbattle_normal TRAINER_JOEY, Route116_Text_29BB79, Route116_Text_29BB9A
 	msgbox Route116_Text_29BBC6, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_1F2EA0:: @ 81F2EA0
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOSE, 0, Route116_Text_29BBFD, Route116_Text_29BC25
+	trainerbattle_normal TRAINER_JOSE, Route116_Text_29BBFD, Route116_Text_29BC25
 	msgbox Route116_Text_29BC42, MSGBOX_AUTOCLOSE
 	end
 
@@ -303,12 +303,12 @@ Route116_EventScript_1F2F4E:: @ 81F2F4E
 	end
 
 Route116_EventScript_1F2F65:: @ 81F2F65
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CLARK, 0, Route116_Text_29BACD, Route116_Text_29BB0F
+	trainerbattle_normal TRAINER_CLARK, Route116_Text_29BACD, Route116_Text_29BB0F
 	msgbox Route116_Text_29BB31, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_1F2F7C:: @ 81F2F7C
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JANICE, 0, Route116_Text_29BC7F, Route116_Text_29BCB3
+	trainerbattle_normal TRAINER_JANICE, Route116_Text_29BC7F, Route116_Text_29BCB3
 	msgbox Route116_Text_29BCCC, MSGBOX_AUTOCLOSE
 	end
 
@@ -358,22 +358,22 @@ Route116_EventScript_1F302A:: @ 81F302A
 	end
 
 Route116_EventScript_1F3041:: @ 81F3041
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_SARAH, 0, Route116_Text_29C173, Route116_Text_29C1B8
+	trainerbattle_normal TRAINER_SARAH, Route116_Text_29C173, Route116_Text_29C1B8
 	msgbox Route116_Text_29C1EA, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_1F3058:: @ 81F3058
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DAWSON, 0, Route116_Text_29C266, Route116_Text_29C2C2
+	trainerbattle_normal TRAINER_DAWSON, Route116_Text_29C266, Route116_Text_29C2C2
 	msgbox Route116_Text_29C2DD, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_1F306F:: @ 81F306F
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DEVAN, 0, Route116_Text_29C350, Route116_Text_29C365
+	trainerbattle_normal TRAINER_DEVAN, Route116_Text_29C350, Route116_Text_29C365
 	msgbox Route116_Text_29C380, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_1F3086:: @ 81F3086
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOHNSON, 0, Route116_Text_29C3C1, Route116_Text_29C3F7
+	trainerbattle_normal TRAINER_JOHNSON, Route116_Text_29C3C1, Route116_Text_29C3F7
 	msgbox Route116_Text_29C418, MSGBOX_AUTOCLOSE
 	end
 

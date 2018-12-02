@@ -63,17 +63,17 @@ Route102_EventScript_1EC19C:: @ 81EC19C
 	end
 
 Route102_EventScript_1EC1B3:: @ 81EC1B3
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_RICK, 0, Route102_Text_29480C, Route102_Text_294847
+	trainerbattle_normal TRAINER_RICK, Route102_Text_29480C, Route102_Text_294847
 	msgbox Route102_Text_294859, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_1EC1CA:: @ 81EC1CA
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TIANA, 0, Route102_Text_29489E, Route102_Text_2948F3
+	trainerbattle_normal TRAINER_TIANA, Route102_Text_29489E, Route102_Text_2948F3
 	msgbox Route102_Text_294916, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_1EC1E1:: @ 81EC1E1
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ALLEN, 0, Route102_Text_294775, Route102_Text_2947AA
+	trainerbattle_normal TRAINER_ALLEN, Route102_Text_294775, Route102_Text_2947AA
 	msgbox Route102_Text_2947DB, MSGBOX_AUTOCLOSE
 	end
 

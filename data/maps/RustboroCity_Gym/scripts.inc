@@ -43,17 +43,17 @@ RustboroCity_Gym_EventScript_212FC8:: @ 8212FC8
 	end
 
 RustboroCity_Gym_EventScript_212FE3:: @ 8212FE3
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JOSH, 0, RustboroCity_Gym_Text_2133E9, RustboroCity_Gym_Text_21342D
+	trainerbattle_normal TRAINER_JOSH, RustboroCity_Gym_Text_2133E9, RustboroCity_Gym_Text_21342D
 	msgbox RustboroCity_Gym_Text_213447, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_212FFA:: @ 8212FFA
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TOMMY, 0, RustboroCity_Gym_Text_213486, RustboroCity_Gym_Text_2134C6
+	trainerbattle_normal TRAINER_TOMMY, RustboroCity_Gym_Text_213486, RustboroCity_Gym_Text_2134C6
 	msgbox RustboroCity_Gym_Text_2134E6, MSGBOX_AUTOCLOSE
 	end
 
 RustboroCity_Gym_EventScript_213011:: @ 8213011
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MARC, 0, RustboroCity_Gym_Text_213533, RustboroCity_Gym_Text_213589
+	trainerbattle_normal TRAINER_MARC, RustboroCity_Gym_Text_213533, RustboroCity_Gym_Text_213589
 	msgbox RustboroCity_Gym_Text_2135C0, MSGBOX_AUTOCLOSE
 	end
 

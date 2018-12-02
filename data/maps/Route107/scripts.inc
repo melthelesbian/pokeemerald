@@ -2,7 +2,7 @@ Route107_MapScripts:: @ 81EE594
 	.byte 0
 
 Route107_EventScript_1EE595:: @ 81EE595
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DARRIN, 0, Route107_Text_2966E5, Route107_Text_29672F
+	trainerbattle_normal TRAINER_DARRIN, Route107_Text_2966E5, Route107_Text_29672F
 	msgbox Route107_Text_29675B, MSGBOX_AUTOCLOSE
 	end
 
@@ -29,27 +29,27 @@ Route107_EventScript_1EE5F7:: @ 81EE5F7
 	end
 
 Route107_EventScript_1EE60E:: @ 81EE60E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DENISE, 0, Route107_Text_296974, Route107_Text_29699E
+	trainerbattle_normal TRAINER_DENISE, Route107_Text_296974, Route107_Text_29699E
 	msgbox Route107_Text_2969AB, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_1EE625:: @ 81EE625
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BETH, 0, Route107_Text_2969E4, Route107_Text_296A17
+	trainerbattle_normal TRAINER_BETH, Route107_Text_2969E4, Route107_Text_296A17
 	msgbox Route107_Text_296A35, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_1EE63C:: @ 81EE63C
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_LISA_AND_RAY, 0, Route107_Text_296A77, Route107_Text_296AA7, Route107_Text_296B1E
+	trainerbattle_double TRAINER_LISA_AND_RAY, Route107_Text_296A77, Route107_Text_296AA7, Route107_Text_296B1E
 	msgbox Route107_Text_296ADC, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_1EE657:: @ 81EE657
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_LISA_AND_RAY, 0, Route107_Text_296B57, Route107_Text_296BB3, Route107_Text_296C34
+	trainerbattle_double TRAINER_LISA_AND_RAY, Route107_Text_296B57, Route107_Text_296BB3, Route107_Text_296C34
 	msgbox Route107_Text_296BE1, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_1EE672:: @ 81EE672
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CAMRON, 0, Route107_Text_296C6F, Route107_Text_296CAD
+	trainerbattle_normal TRAINER_CAMRON, Route107_Text_296C6F, Route107_Text_296CAD
 	msgbox Route107_Text_296CC0, MSGBOX_AUTOCLOSE
 	end
 

@@ -59,7 +59,7 @@ Route115_EventScript_1F29D9:: @ 81F29D9
 	end
 
 Route115_EventScript_1F29F0:: @ 81F29F0
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KOICHI, 0, Route115_Text_29B3CC, Route115_Text_29B3ED
+	trainerbattle_normal TRAINER_KOICHI, Route115_Text_29B3CC, Route115_Text_29B3ED
 	msgbox Route115_Text_29B3FF, MSGBOX_AUTOCLOSE
 	end
 
@@ -108,32 +108,32 @@ Route115_EventScript_1F2AB4:: @ 81F2AB4
 	end
 
 Route115_EventScript_1F2ACB:: @ 81F2ACB
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_HECTOR, 0, Route115_Text_29B78F, Route115_Text_29B7C5
+	trainerbattle_normal TRAINER_HECTOR, Route115_Text_29B78F, Route115_Text_29B7C5
 	msgbox Route115_Text_29B7EA, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_1F2AE2:: @ 81F2AE2
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KYRA, 0, Route115_Text_29B826, Route115_Text_29B85D
+	trainerbattle_normal TRAINER_KYRA, Route115_Text_29B826, Route115_Text_29B85D
 	msgbox Route115_Text_29B869, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_1F2AF9:: @ 81F2AF9
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JAIDEN, 0, Route115_Text_29B8C1, Route115_Text_29B8E8
+	trainerbattle_normal TRAINER_JAIDEN, Route115_Text_29B8C1, Route115_Text_29B8E8
 	msgbox Route115_Text_29B904, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_1F2B10:: @ 81F2B10
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ALIX, 0, Route115_Text_29B9CB, Route115_Text_29B9F6
+	trainerbattle_normal TRAINER_ALIX, Route115_Text_29B9CB, Route115_Text_29B9F6
 	msgbox Route115_Text_29BA04, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_1F2B27:: @ 81F2B27
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_HELENE, 0, Route115_Text_29B92D, Route115_Text_29B958
+	trainerbattle_normal TRAINER_HELENE, Route115_Text_29B92D, Route115_Text_29B958
 	msgbox Route115_Text_29B971, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_1F2B3E:: @ 81F2B3E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MARLENE, 0, Route115_Text_29BA2C, Route115_Text_29BA67
+	trainerbattle_normal TRAINER_MARLENE, Route115_Text_29BA2C, Route115_Text_29BA67
 	msgbox Route115_Text_29BA87, MSGBOX_AUTOCLOSE
 	end
 

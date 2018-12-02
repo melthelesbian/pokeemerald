@@ -2,27 +2,27 @@ Route108_MapScripts:: @ 81EE689
 	.byte 0
 
 Route108_EventScript_1EE68A:: @ 81EE68A
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JEROME, 0, Route108_Text_296D10, Route108_Text_296D3C
+	trainerbattle_normal TRAINER_JEROME, Route108_Text_296D10, Route108_Text_296D3C
 	msgbox Route108_Text_296D6E, MSGBOX_AUTOCLOSE
 	end
 
 Route108_EventScript_1EE6A1:: @ 81EE6A1
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MATTHEW, 0, Route108_Text_296DAF, Route108_Text_296DEA
+	trainerbattle_normal TRAINER_MATTHEW, Route108_Text_296DAF, Route108_Text_296DEA
 	msgbox Route108_Text_296E03, MSGBOX_AUTOCLOSE
 	end
 
 Route108_EventScript_1EE6B8:: @ 81EE6B8
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_TARA, 0, Route108_Text_296E33, Route108_Text_296E71
+	trainerbattle_normal TRAINER_TARA, Route108_Text_296E33, Route108_Text_296E71
 	msgbox Route108_Text_296E7A, MSGBOX_AUTOCLOSE
 	end
 
 Route108_EventScript_1EE6CF:: @ 81EE6CF
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MISSY, 0, Route108_Text_296EC7, Route108_Text_296EFC
+	trainerbattle_normal TRAINER_MISSY, Route108_Text_296EC7, Route108_Text_296EFC
 	msgbox Route108_Text_296F2A, MSGBOX_AUTOCLOSE
 	end
 
 Route108_EventScript_1EE6E6:: @ 81EE6E6
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_CAROLINA, 0, Route108_Text_297094, Route108_Text_2970D7
+	trainerbattle_normal TRAINER_CAROLINA, Route108_Text_297094, Route108_Text_2970D7
 	msgbox Route108_Text_2970F0, MSGBOX_AUTOCLOSE
 	end
 

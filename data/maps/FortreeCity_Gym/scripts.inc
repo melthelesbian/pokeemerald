@@ -72,32 +72,32 @@ FortreeCity_Gym_EventScript_21668D:: @ 821668D
 	end
 
 FortreeCity_Gym_EventScript_2166A8:: @ 82166A8
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JARED, 0, FortreeCity_Gym_Text_2168A2, FortreeCity_Gym_Text_2168D3
+	trainerbattle_normal TRAINER_JARED, FortreeCity_Gym_Text_2168A2, FortreeCity_Gym_Text_2168D3
 	msgbox FortreeCity_Gym_Text_2168E7, MSGBOX_AUTOCLOSE
 	end
 
 FortreeCity_Gym_EventScript_2166BF:: @ 82166BF
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_EDWARDO, 0, FortreeCity_Gym_Text_21695A, FortreeCity_Gym_Text_2169C7
+	trainerbattle_normal TRAINER_EDWARDO, FortreeCity_Gym_Text_21695A, FortreeCity_Gym_Text_2169C7
 	msgbox FortreeCity_Gym_Text_2169F1, MSGBOX_AUTOCLOSE
 	end
 
 FortreeCity_Gym_EventScript_2166D6:: @ 82166D6
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_FLINT, 0, FortreeCity_Gym_Text_216A66, FortreeCity_Gym_Text_216AC4
+	trainerbattle_normal TRAINER_FLINT, FortreeCity_Gym_Text_216A66, FortreeCity_Gym_Text_216AC4
 	msgbox FortreeCity_Gym_Text_216AD7, MSGBOX_AUTOCLOSE
 	end
 
 FortreeCity_Gym_EventScript_2166ED:: @ 82166ED
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ASHLEY, 0, FortreeCity_Gym_Text_216B1A, FortreeCity_Gym_Text_216B51
+	trainerbattle_normal TRAINER_ASHLEY, FortreeCity_Gym_Text_216B1A, FortreeCity_Gym_Text_216B51
 	msgbox FortreeCity_Gym_Text_216B5F, MSGBOX_AUTOCLOSE
 	end
 
 FortreeCity_Gym_EventScript_216704:: @ 8216704
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_HUMBERTO, 0, FortreeCity_Gym_Text_216B9E, FortreeCity_Gym_Text_216C18
+	trainerbattle_normal TRAINER_HUMBERTO, FortreeCity_Gym_Text_216B9E, FortreeCity_Gym_Text_216C18
 	msgbox FortreeCity_Gym_Text_216C32, MSGBOX_AUTOCLOSE
 	end
 
 FortreeCity_Gym_EventScript_21671B:: @ 821671B
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DARIUS, 0, FortreeCity_Gym_Text_216C96, FortreeCity_Gym_Text_216CF2
+	trainerbattle_normal TRAINER_DARIUS, FortreeCity_Gym_Text_216C96, FortreeCity_Gym_Text_216CF2
 	msgbox FortreeCity_Gym_Text_216D0F, MSGBOX_AUTOCLOSE
 	end
 

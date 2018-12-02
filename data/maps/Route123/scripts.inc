@@ -46,17 +46,17 @@ Route123_EventScript_1F61BC:: @ 81F61BC
 	end
 
 Route123_EventScript_1F61C5:: @ 81F61C5
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_WENDY, 0, Route123_Text_29FBEB, Route123_Text_29FC23
+	trainerbattle_normal TRAINER_WENDY, Route123_Text_29FBEB, Route123_Text_29FC23
 	msgbox Route123_Text_29FC42, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F61DC:: @ 81F61DC
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRAXTON, 0, Route123_Text_29FC6F, Route123_Text_29FCD6
+	trainerbattle_normal TRAINER_BRAXTON, Route123_Text_29FC6F, Route123_Text_29FCD6
 	msgbox Route123_Text_29FCF4, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F61F3:: @ 81F61F3
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_VIOLET, 0, Route123_Text_29FD1D, Route123_Text_29FD53
+	trainerbattle_normal TRAINER_VIOLET, Route123_Text_29FD1D, Route123_Text_29FD53
 	msgbox Route123_Text_29FD7B, MSGBOX_AUTOCLOSE
 	end
 
@@ -105,52 +105,52 @@ Route123_EventScript_1F62B7:: @ 81F62B7
 	end
 
 Route123_EventScript_1F62CE:: @ 81F62CE
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_MIU_AND_YUKI, 0, Route123_Text_2A00D6, Route123_Text_2A0119, Route123_Text_2A016D
+	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_2A00D6, Route123_Text_2A0119, Route123_Text_2A016D
 	msgbox Route123_Text_2A012E, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F62E9:: @ 81F62E9
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_MIU_AND_YUKI, 0, Route123_Text_2A01A7, Route123_Text_2A01D8, Route123_Text_2A0224
+	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_2A01A7, Route123_Text_2A01D8, Route123_Text_2A0224
 	msgbox Route123_Text_2A01EE, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F6304:: @ 81F6304
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KINDRA, 0, Route123_Text_2A025F, Route123_Text_2A02A6
+	trainerbattle_normal TRAINER_KINDRA, Route123_Text_2A025F, Route123_Text_2A02A6
 	msgbox Route123_Text_2A02C1, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F631B:: @ 81F631B
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_FREDRICK, 0, Route123_Text_2A060A, Route123_Text_2A0631
+	trainerbattle_normal TRAINER_FREDRICK, Route123_Text_2A060A, Route123_Text_2A0631
 	msgbox Route123_Text_2A0672, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F6332:: @ 81F6332
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ALBERTO, 0, Route123_Text_2A06AF, Route123_Text_2A0704
+	trainerbattle_normal TRAINER_ALBERTO, Route123_Text_2A06AF, Route123_Text_2A0704
 	msgbox Route123_Text_2A072B, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F6349:: @ 81F6349
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_ED, 0, Route123_Text_2A079B, Route123_Text_2A07F0
+	trainerbattle_normal TRAINER_ED, Route123_Text_2A079B, Route123_Text_2A07F0
 	msgbox Route123_Text_2A080D, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F6360:: @ 81F6360
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_KAYLEY, 0, Route123_Text_2A0902, Route123_Text_2A0943
+	trainerbattle_normal TRAINER_KAYLEY, Route123_Text_2A0902, Route123_Text_2A0943
 	msgbox Route123_Text_2A096E, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F6377:: @ 81F6377
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JONAS, 0, Route123_Text_2A0854, Route123_Text_2A088A
+	trainerbattle_normal TRAINER_JONAS, Route123_Text_2A0854, Route123_Text_2A088A
 	msgbox Route123_Text_2A08CA, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F638E:: @ 81F638E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_JAZMYN, 0, Route123_Text_2A054E, Route123_Text_2A0592
+	trainerbattle_normal TRAINER_JAZMYN, Route123_Text_2A054E, Route123_Text_2A0592
 	msgbox Route123_Text_2A05AC, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_1F63A5:: @ 81F63A5
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DAVIS, 0, Route123_Text_2A04C0, Route123_Text_2A04FE
+	trainerbattle_normal TRAINER_DAVIS, Route123_Text_2A04C0, Route123_Text_2A04FE
 	msgbox Route123_Text_2A0512, MSGBOX_AUTOCLOSE
 	end
 

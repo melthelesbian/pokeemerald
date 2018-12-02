@@ -871,12 +871,12 @@ Route104_Movement_1ED35C: @ 81ED35C
 	step_end
 
 Route104_EventScript_1ED35F:: @ 81ED35F
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_IVAN, 0, Route104_Text_2954BD, Route104_Text_295509
+	trainerbattle_normal TRAINER_IVAN, Route104_Text_2954BD, Route104_Text_295509
 	msgbox Route104_Text_29554E, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_1ED376:: @ 81ED376
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BILLY, 0, Route104_Text_29558A, Route104_Text_2955B4
+	trainerbattle_normal TRAINER_BILLY, Route104_Text_29558A, Route104_Text_2955B4
 	msgbox Route104_Text_2955E8, MSGBOX_AUTOCLOSE
 	end
 
@@ -1016,21 +1016,21 @@ Route104_EventScript_1ED580:: @ 81ED580
 	end
 
 Route104_EventScript_1ED597:: @ 81ED597
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_GINA_AND_MIA_1, 0, Route104_Text_2952BB, Route104_Text_2952E6, Route104_Text_295330
+	trainerbattle_double TRAINER_GINA_AND_MIA_1, Route104_Text_2952BB, Route104_Text_2952E6, Route104_Text_295330
 	special GetPlayerBigGuyGirlString
 	msgbox Route104_Text_2952FE, MSGBOX_DEFAULT
 	release
 	end
 
 Route104_EventScript_1ED5B6:: @ 81ED5B6
-	trainerbattle TRAINER_BATTLE_DOUBLE, TRAINER_GINA_AND_MIA_1, 0, Route104_Text_2953AF, Route104_Text_2953E1, Route104_Text_295449
+	trainerbattle_double TRAINER_GINA_AND_MIA_1, Route104_Text_2953AF, Route104_Text_2953E1, Route104_Text_295449
 	special GetPlayerBigGuyGirlString
 	msgbox Route104_Text_29540D, MSGBOX_DEFAULT
 	release
 	end
 
 Route104_EventScript_1ED5D5:: @ 81ED5D5
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DARIAN, 0, Route104_Text_295C5D, Route104_Text_295CC9
+	trainerbattle_normal TRAINER_DARIAN, Route104_Text_295C5D, Route104_Text_295CC9
 	msgbox Route104_Text_295CD3, MSGBOX_AUTOCLOSE
 	end
 

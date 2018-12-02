@@ -127,7 +127,7 @@ Route117_EventScript_1F3B41:: @ 81F3B41
 	end
 
 Route117_EventScript_1F3B58:: @ 81F3B58
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_DEREK, 0, Route117_Text_29CB32, Route117_Text_29CB87
+	trainerbattle_normal TRAINER_DEREK, Route117_Text_29CB32, Route117_Text_29CB87
 	msgbox Route117_Text_29CBAD, MSGBOX_AUTOCLOSE
 	end
 
@@ -172,17 +172,17 @@ Route117_EventScript_1F3C1C:: @ 81F3C1C
 	end
 
 Route117_EventScript_1F3C37:: @ 81F3C37
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_MELINA, 0, Route117_Text_29D0B7, Route117_Text_29D0F1
+	trainerbattle_normal TRAINER_MELINA, Route117_Text_29D0B7, Route117_Text_29D0F1
 	msgbox Route117_Text_29D10E, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_1F3C4E:: @ 81F3C4E
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_BRANDI, 0, Route117_Text_29D14B, Route117_Text_29D189
+	trainerbattle_normal TRAINER_BRANDI, Route117_Text_29D14B, Route117_Text_29D189
 	msgbox Route117_Text_29D196, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_1F3C65:: @ 81F3C65
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_AISHA, 0, Route117_Text_29D1D1, Route117_Text_29D206
+	trainerbattle_normal TRAINER_AISHA, Route117_Text_29D1D1, Route117_Text_29D206
 	msgbox Route117_Text_29D24C, MSGBOX_AUTOCLOSE
 	end
 

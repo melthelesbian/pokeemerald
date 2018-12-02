@@ -273,7 +273,7 @@ PetalburgWoods_EventScript_22E264:: @ 822E264
 	end
 
 PetalburgWoods_EventScript_22E26D:: @ 822E26D
-	trainerbattle TRAINER_BATTLE_NORMAL, TRAINER_LYLE, 0, PetalburgWoods_Text_22E77D, PetalburgWoods_Text_22E7C1
+	trainerbattle_normal TRAINER_LYLE, PetalburgWoods_Text_22E77D, PetalburgWoods_Text_22E7C1
 	msgbox PetalburgWoods_Text_22E7EF, MSGBOX_AUTOCLOSE
 	end
 
