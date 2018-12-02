@@ -86,7 +86,7 @@ SootopolisCity_Gym_1F_Movement_224F42: @ 8224F42
 	step_end
 
 SootopolisCity_Gym_1F_EventScript_224F44:: @ 8224F44
-	trainerbattle 1, TRAINER_JUAN_1, 0, SootopolisCity_Gym_1F_Text_225268, SootopolisCity_Gym_1F_Text_225432, SootopolisCity_Gym_1F_EventScript_224F82
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, TRAINER_JUAN_1, 0, SootopolisCity_Gym_1F_Text_225268, SootopolisCity_Gym_1F_Text_225432, SootopolisCity_Gym_1F_EventScript_224F82
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq SootopolisCity_Gym_1F_EventScript_225025
@@ -147,7 +147,7 @@ SootopolisCity_Gym_1F_EventScript_22501B:: @ 822501B
 	end
 
 SootopolisCity_Gym_1F_EventScript_225025:: @ 8225025
-	trainerbattle 7, TRAINER_JUAN_1, 0, SootopolisCity_Gym_1F_Text_225950, SootopolisCity_Gym_1F_Text_225A2E, SootopolisCity_Gym_1F_Text_225B48
+	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_JUAN_1, 0, SootopolisCity_Gym_1F_Text_225950, SootopolisCity_Gym_1F_Text_225A2E, SootopolisCity_Gym_1F_Text_225B48
 	msgbox SootopolisCity_Gym_1F_Text_225A67, MSGBOX_AUTOCLOSE
 	end
 

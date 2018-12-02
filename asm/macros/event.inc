@@ -629,55 +629,55 @@
 	.endm
 
 	@ If the Trainer flag for Trainer index is not set, this command does absolutely nothing.
-	.macro trainerbattle type, trainer, word, pointer1, pointer2, pointer3, pointer4
+	.macro trainerbattle type, trainer, local_id, pointer1, pointer2, pointer3, pointer4
 	.byte 0x5c
 	.byte \type
 	.2byte \trainer
-	.2byte \word
-	.if \type == 0
+	.2byte \local_id
+	.if \type == TRAINER_BATTLE_NORMAL
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
-	.elseif \type == 1
-		.4byte \pointer1 @ text
-		.4byte \pointer2 @ text
-		.4byte \pointer3 @ event script
-	.elseif \type == 2
+	.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 		.4byte \pointer3 @ event script
-	.elseif \type == 3
+	.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT
 		.4byte \pointer1 @ text
-	.elseif \type == 4
+		.4byte \pointer2 @ text
+		.4byte \pointer3 @ event script
+	.elseif \type == TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT
+		.4byte \pointer1 @ text
+	.elseif \type == TRAINER_BATTLE_DOUBLE
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 		.4byte \pointer3 @ text
-	.elseif \type == 5
+	.elseif \type == TRAINER_BATTLE_REMATCH
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
-	.elseif \type == 6
+	.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 		.4byte \pointer3 @ text
 		.4byte \pointer4 @ event script
-	.elseif \type == 7
+	.elseif \type == TRAINER_BATTLE_REMATCH_DOUBLE
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 		.4byte \pointer3 @ text
-	.elseif \type == 8
+	.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE_NO_MUSIC
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 		.4byte \pointer3 @ text
 		.4byte \pointer4 @ event script
-	.elseif \type == 9
+	.elseif \type == TRAINER_BATTLE_9
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
-	.elseif \type == 10
+	.elseif \type == TRAINER_BATTLE_SET_TRAINER_A
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
-	.elseif \type == 11
+	.elseif \type == TRAINER_BATTLE_SET_TRAINER_B
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
-	.elseif \type == 12
+	.elseif \type == TRAINER_BATTLE_12
 		.4byte \pointer1 @ text
 		.4byte \pointer2 @ text
 	.endif
