@@ -79,7 +79,7 @@ Route105_EventScript_1EE300:: @ 81EE300
 	end
 
 Route105_EventScript_1EE31F:: @ 81EE31F
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ANDRES_1, 0, Route105_Text_29619E, Route105_Text_2961DD
+	trainerbattle_rematch TRAINER_ANDRES_1, Route105_Text_29619E, Route105_Text_2961DD
 	msgbox Route105_Text_2961FE, MSGBOX_AUTOCLOSE
 	end
 

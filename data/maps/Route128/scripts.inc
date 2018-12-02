@@ -193,7 +193,7 @@ Route128_EventScript_1F6CEA:: @ 81F6CEA
 	end
 
 Route128_EventScript_1F6D09:: @ 81F6D09
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ISAIAH_1, 0, Route128_Text_2A2975, Route128_Text_2A29B8
+	trainerbattle_rematch TRAINER_ISAIAH_1, Route128_Text_2A2975, Route128_Text_2A29B8
 	msgbox Route128_Text_2A29DC, MSGBOX_AUTOCLOSE
 	end
 
@@ -215,7 +215,7 @@ Route128_EventScript_1F6D4C:: @ 81F6D4C
 	end
 
 Route128_EventScript_1F6D6B:: @ 81F6D6B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_KATELYN_1, 0, Route128_Text_2A2B41, Route128_Text_2A2BAB
+	trainerbattle_rematch TRAINER_KATELYN_1, Route128_Text_2A2B41, Route128_Text_2A2BAB
 	msgbox Route128_Text_2A2BDD, MSGBOX_AUTOCLOSE
 	end
 

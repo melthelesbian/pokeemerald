@@ -504,7 +504,7 @@ MtChimney_EventScript_22F176:: @ 822F176
 	end
 
 MtChimney_EventScript_22F195:: @ 822F195
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_SHELBY_1, 0, MtChimney_Text_230153, MtChimney_Text_2301BB
+	trainerbattle_rematch TRAINER_SHELBY_1, MtChimney_Text_230153, MtChimney_Text_2301BB
 	msgbox MtChimney_Text_2301E7, MSGBOX_AUTOCLOSE
 	end
 
@@ -546,7 +546,7 @@ MtChimney_EventScript_22F234:: @ 822F234
 	end
 
 MtChimney_EventScript_22F253:: @ 822F253
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_SAWYER_1, 0, MtChimney_Text_23059C, MtChimney_Text_2305E3
+	trainerbattle_rematch TRAINER_SAWYER_1, MtChimney_Text_23059C, MtChimney_Text_2305E3
 	msgbox MtChimney_Text_230614, MSGBOX_AUTOCLOSE
 	end
 

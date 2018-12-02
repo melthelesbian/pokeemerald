@@ -204,7 +204,7 @@ Route118_EventScript_1F3FB3:: @ 81F3FB3
 	end
 
 Route118_EventScript_1F3FD2:: @ 81F3FD2
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ROSE_1, 0, Route118_Text_29D382, Route118_Text_29D3AA
+	trainerbattle_rematch TRAINER_ROSE_1, Route118_Text_29D382, Route118_Text_29D3AA
 	msgbox Route118_Text_29D3D9, MSGBOX_AUTOCLOSE
 	end
 
@@ -236,7 +236,7 @@ Route118_EventScript_1F4043:: @ 81F4043
 	end
 
 Route118_EventScript_1F4062:: @ 81F4062
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_DALTON_1, 0, Route118_Text_29D789, Route118_Text_29D7CA
+	trainerbattle_rematch TRAINER_DALTON_1, Route118_Text_29D789, Route118_Text_29D7CA
 	msgbox Route118_Text_29D7D5, MSGBOX_AUTOCLOSE
 	end
 

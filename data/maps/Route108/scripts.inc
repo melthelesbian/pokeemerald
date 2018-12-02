@@ -44,7 +44,7 @@ Route108_EventScript_1EE729:: @ 81EE729
 	end
 
 Route108_EventScript_1EE748:: @ 81EE748
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_CORY_1, 0, Route108_Text_297011, Route108_Text_297036
+	trainerbattle_rematch TRAINER_CORY_1, Route108_Text_297011, Route108_Text_297036
 	msgbox Route108_Text_297059, MSGBOX_AUTOCLOSE
 	end
 

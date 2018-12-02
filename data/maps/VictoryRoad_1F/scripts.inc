@@ -90,7 +90,7 @@ VictoryRoad_1F_EventScript_235E35:: @ 8235E35
 	end
 
 VictoryRoad_1F_EventScript_235E5C:: @ 8235E5C
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_WALLY_3, 0, VictoryRoad_1F_Text_236073, VictoryRoad_1F_Text_2360DA
+	trainerbattle_rematch TRAINER_WALLY_3, VictoryRoad_1F_Text_236073, VictoryRoad_1F_Text_2360DA
 	msgbox VictoryRoad_1F_Text_2360FE, MSGBOX_AUTOCLOSE
 	end
 
@@ -217,4 +217,3 @@ VictoryRoad_1F_Text_2364A7: @ 82364A7
 VictoryRoad_1F_Text_2364BB: @ 82364BB
 	.string "Humph, go right on ahead.\n"
 	.string "See if I care.$"
-

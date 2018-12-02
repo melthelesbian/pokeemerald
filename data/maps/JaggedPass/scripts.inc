@@ -119,7 +119,7 @@ JaggedPass_EventScript_2307C8:: @ 82307C8
 	end
 
 JaggedPass_EventScript_2307E4:: @ 82307E4
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_DIANA_1, 0, JaggedPass_Text_230A76, JaggedPass_Text_230AAA
+	trainerbattle_rematch TRAINER_DIANA_1, JaggedPass_Text_230A76, JaggedPass_Text_230AAA
 	msgbox JaggedPass_Text_230AD7, MSGBOX_AUTOCLOSE
 	end
 
@@ -140,7 +140,7 @@ JaggedPass_EventScript_230827:: @ 8230827
 	end
 
 JaggedPass_EventScript_230843:: @ 8230843
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ETHAN_1, 0, JaggedPass_Text_230C28, JaggedPass_Text_230C60
+	trainerbattle_rematch TRAINER_ETHAN_1, JaggedPass_Text_230C28, JaggedPass_Text_230C60
 	msgbox JaggedPass_Text_230C94, MSGBOX_AUTOCLOSE
 	end
 

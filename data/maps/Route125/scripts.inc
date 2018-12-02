@@ -64,7 +64,7 @@ Route125_EventScript_1F682C:: @ 81F682C
 	end
 
 Route125_EventScript_1F684B:: @ 81F684B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ERNEST_1, 0, Route125_Text_2A180E, Route125_Text_2A1851
+	trainerbattle_rematch TRAINER_ERNEST_1, Route125_Text_2A180E, Route125_Text_2A1851
 	msgbox Route125_Text_2A187A, MSGBOX_AUTOCLOSE
 	end
 

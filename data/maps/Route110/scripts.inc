@@ -192,7 +192,7 @@ Route110_EventScript_1EF44C:: @ 81EF44C
 	end
 
 Route110_EventScript_1EF46B:: @ 81EF46B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_EDWIN_1, 0, Route110_Text_298232, Route110_Text_298288
+	trainerbattle_rematch TRAINER_EDWIN_1, Route110_Text_298232, Route110_Text_298288
 	msgbox Route110_Text_2982A2, MSGBOX_AUTOCLOSE
 	end
 
@@ -229,7 +229,7 @@ Route110_EventScript_1EF4F3:: @ 81EF4F3
 	end
 
 Route110_EventScript_1EF512:: @ 81EF512
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_BENJAMIN_1, 0, Route110_Text_297D4B, Route110_Text_297D8E
+	trainerbattle_rematch TRAINER_BENJAMIN_1, Route110_Text_297D4B, Route110_Text_297D8E
 	msgbox Route110_Text_297DB0, MSGBOX_AUTOCLOSE
 	end
 
@@ -256,7 +256,7 @@ Route110_EventScript_1EF56C:: @ 81EF56C
 	end
 
 Route110_EventScript_1EF58B:: @ 81EF58B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ABIGAIL_1, 0, Route110_Text_297F09, Route110_Text_297F37
+	trainerbattle_rematch TRAINER_ABIGAIL_1, Route110_Text_297F09, Route110_Text_297F37
 	msgbox Route110_Text_297F58, MSGBOX_AUTOCLOSE
 	end
 
@@ -278,7 +278,7 @@ Route110_EventScript_1EF5CE:: @ 81EF5CE
 	end
 
 Route110_EventScript_1EF5ED:: @ 81EF5ED
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ISABEL_1, 0, Route110_Text_298466, Route110_Text_2984AF
+	trainerbattle_rematch TRAINER_ISABEL_1, Route110_Text_298466, Route110_Text_2984AF
 	msgbox Route110_Text_2984C8, MSGBOX_AUTOCLOSE
 	end
 

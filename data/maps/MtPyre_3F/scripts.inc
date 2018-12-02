@@ -29,7 +29,7 @@ MtPyre_3F_EventScript_2317AD:: @ 82317AD
 	end
 
 MtPyre_3F_EventScript_2317CC:: @ 82317CC
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_GABRIELLE_1, 0, MtPyre_3F_Text_231AAB, MtPyre_3F_Text_231AE6
+	trainerbattle_rematch TRAINER_GABRIELLE_1, MtPyre_3F_Text_231AAB, MtPyre_3F_Text_231AE6
 	msgbox MtPyre_3F_Text_231B0D, MSGBOX_AUTOCLOSE
 	end
 

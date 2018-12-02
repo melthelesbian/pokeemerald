@@ -58,7 +58,7 @@ Route102_EventScript_1EC183:: @ 81EC183
 	end
 
 Route102_EventScript_1EC19C:: @ 81EC19C
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_CALVIN_1, 0, Route102_Text_2946AE, Route102_Text_29470C
+	trainerbattle_rematch TRAINER_CALVIN_1, Route102_Text_2946AE, Route102_Text_29470C
 	msgbox Route102_Text_29473C, MSGBOX_AUTOCLOSE
 	end
 

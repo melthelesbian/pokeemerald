@@ -211,7 +211,7 @@ DewfordTown_Gym_EventScript_1FC878:: @ 81FC878
 	end
 
 DewfordTown_Gym_EventScript_1FC89C:: @ 81FC89C
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_BRAWLY_1, 0, DewfordTown_Gym_Text_1FD2C4, DewfordTown_Gym_Text_1FD367, DewfordTown_Gym_Text_1FD3DE
+	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_1FD2C4, DewfordTown_Gym_Text_1FD367, DewfordTown_Gym_Text_1FD3DE
 	msgbox DewfordTown_Gym_Text_1FD37B, MSGBOX_AUTOCLOSE
 	end
 

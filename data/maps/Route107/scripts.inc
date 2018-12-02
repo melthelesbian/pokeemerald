@@ -24,7 +24,7 @@ Route107_EventScript_1EE5D8:: @ 81EE5D8
 	end
 
 Route107_EventScript_1EE5F7:: @ 81EE5F7
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_TONY_1, 0, Route107_Text_296897, Route107_Text_2968D5
+	trainerbattle_rematch TRAINER_TONY_1, Route107_Text_296897, Route107_Text_2968D5
 	msgbox Route107_Text_296923, MSGBOX_AUTOCLOSE
 	end
 

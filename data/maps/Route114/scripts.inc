@@ -126,7 +126,7 @@ Route114_EventScript_1F26C8:: @ 81F26C8
 	end
 
 Route114_EventScript_1F26E7:: @ 81F26E7
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_STEVE_1, 0, Route114_Text_29AA3E, Route114_Text_29AA67
+	trainerbattle_rematch TRAINER_STEVE_1, Route114_Text_29AA3E, Route114_Text_29AA67
 	msgbox Route114_Text_29AA94, MSGBOX_AUTOCLOSE
 	end
 
@@ -148,7 +148,7 @@ Route114_EventScript_1F272A:: @ 81F272A
 	end
 
 Route114_EventScript_1F2749:: @ 81F2749
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_BERNIE_1, 0, Route114_Text_29ABDC, Route114_Text_29AC10
+	trainerbattle_rematch TRAINER_BERNIE_1, Route114_Text_29ABDC, Route114_Text_29AC10
 	msgbox Route114_Text_29AC43, MSGBOX_AUTOCLOSE
 	end
 

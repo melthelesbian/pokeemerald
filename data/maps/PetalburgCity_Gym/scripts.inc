@@ -379,7 +379,7 @@ PetalburgCity_Gym_EventScript_204DAC:: @ 8204DAC
 	end
 
 PetalburgCity_Gym_EventScript_204DB3:: @ 8204DB3
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_NORMAN_1, 0, PetalburgCity_Gym_Text_2074A2, PetalburgCity_Gym_Text_2075CE, PetalburgCity_Gym_Text_20764A
+	trainerbattle_rematch_double TRAINER_NORMAN_1, PetalburgCity_Gym_Text_2074A2, PetalburgCity_Gym_Text_2075CE, PetalburgCity_Gym_Text_20764A
 	msgbox PetalburgCity_Gym_Text_2075F7, MSGBOX_AUTOCLOSE
 	end
 

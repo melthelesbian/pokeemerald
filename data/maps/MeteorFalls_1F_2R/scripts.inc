@@ -19,7 +19,7 @@ MeteorFalls_1F_2R_EventScript_22C50A:: @ 822C50A
 	end
 
 MeteorFalls_1F_2R_EventScript_22C529:: @ 822C529
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_NICOLAS_1, 0, MeteorFalls_1F_2R_Text_22C73F, MeteorFalls_1F_2R_Text_22C7AD
+	trainerbattle_rematch TRAINER_NICOLAS_1, MeteorFalls_1F_2R_Text_22C73F, MeteorFalls_1F_2R_Text_22C7AD
 	msgbox MeteorFalls_1F_2R_Text_22C7D8, MSGBOX_AUTOCLOSE
 	end
 
@@ -39,7 +39,7 @@ MeteorFalls_1F_2R_EventScript_22C570:: @ 822C570
 	end
 
 MeteorFalls_1F_2R_EventScript_22C589:: @ 822C589
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_JOHN_AND_JAY_1, 0, MeteorFalls_1F_2R_Text_22CB47, MeteorFalls_1F_2R_Text_22CBA0, MeteorFalls_1F_2R_Text_22CC27
+	trainerbattle_rematch_double TRAINER_JOHN_AND_JAY_1, MeteorFalls_1F_2R_Text_22CB47, MeteorFalls_1F_2R_Text_22CBA0, MeteorFalls_1F_2R_Text_22CC27
 	msgbox MeteorFalls_1F_2R_Text_22CBC5, MSGBOX_AUTOCLOSE
 	end
 
@@ -59,7 +59,7 @@ MeteorFalls_1F_2R_EventScript_22C5D4:: @ 822C5D4
 	end
 
 MeteorFalls_1F_2R_EventScript_22C5ED:: @ 822C5ED
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_JOHN_AND_JAY_1, 0, MeteorFalls_1F_2R_Text_22CC98, MeteorFalls_1F_2R_Text_22CD08, MeteorFalls_1F_2R_Text_22CDAB
+	trainerbattle_rematch_double TRAINER_JOHN_AND_JAY_1, MeteorFalls_1F_2R_Text_22CC98, MeteorFalls_1F_2R_Text_22CD08, MeteorFalls_1F_2R_Text_22CDAB
 	msgbox MeteorFalls_1F_2R_Text_22CD34, MSGBOX_AUTOCLOSE
 	end
 

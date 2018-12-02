@@ -222,7 +222,7 @@ Route103_EventScript_1EC63A:: @ 81EC63A
 	end
 
 Route103_EventScript_1EC653:: @ 81EC653
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_AMY_AND_LIV_1, 0, Route103_Text_294C29, Route103_Text_294C6D, Route103_Text_294CEF
+	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_294C29, Route103_Text_294C6D, Route103_Text_294CEF
 	msgbox Route103_Text_294C93, MSGBOX_AUTOCLOSE
 	end
 
@@ -241,7 +241,7 @@ Route103_EventScript_1EC69D:: @ 81EC69D
 	end
 
 Route103_EventScript_1EC6B6:: @ 81EC6B6
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_AMY_AND_LIV_1, 0, Route103_Text_294D3E, Route103_Text_294D63, Route103_Text_294DDB
+	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_294D3E, Route103_Text_294D63, Route103_Text_294DDB
 	msgbox Route103_Text_294D89, MSGBOX_AUTOCLOSE
 	end
 
@@ -268,7 +268,7 @@ Route103_EventScript_1EC714:: @ 81EC714
 	end
 
 Route103_EventScript_1EC733:: @ 81EC733
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_MIGUEL_1, 0, Route103_Text_294FC3, Route103_Text_295006
+	trainerbattle_rematch TRAINER_MIGUEL_1, Route103_Text_294FC3, Route103_Text_295006
 	msgbox Route103_Text_29501E, MSGBOX_AUTOCLOSE
 	end
 

@@ -76,7 +76,7 @@ Route113_EventScript_1F221A:: @ 81F221A
 	end
 
 Route113_EventScript_1F2239:: @ 81F2239
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_MADELINE_1, 0, Route113_Text_299F8A, Route113_Text_299FC9
+	trainerbattle_rematch TRAINER_MADELINE_1, Route113_Text_299F8A, Route113_Text_299FC9
 	msgbox Route113_Text_299FD8, MSGBOX_AUTOCLOSE
 	end
 
@@ -98,7 +98,7 @@ Route113_EventScript_1F227C:: @ 81F227C
 	end
 
 Route113_EventScript_1F229B:: @ 81F229B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_LAO_1, 0, Route113_Text_29A0E8, Route113_Text_29A11F
+	trainerbattle_rematch TRAINER_LAO_1, Route113_Text_29A0E8, Route113_Text_29A11F
 	msgbox Route113_Text_29A13A, MSGBOX_AUTOCLOSE
 	end
 

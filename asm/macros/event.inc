@@ -707,6 +707,14 @@
 	.endif
 	.endm
 
+	.macro trainerbattle_rematch trainer, intro_text, lose_text
+	trainerbattle TRAINER_BATTLE_REMATCH, \trainer, 0, \intro_text, \lose_text
+	.endm
+
+	.macro trainerbattle_rematch_double trainer, intro_text, lose_text, not_enough_pkmn_text
+	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, \trainer, 0, \intro_text, \lose_text, \not_enough_pkmn_text
+	.endm
+
 	@ Starts a trainer battle using the battle information stored in RAM (usually by trainerbattle, which actually calls this command behind-the-scenes), and blocks script execution until the battle finishes.
 	.macro trainerbattlebegin
 	.byte 0x5d

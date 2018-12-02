@@ -413,7 +413,7 @@ Route109_EventScript_1EEAC5:: @ 81EEAC5
 	end
 
 Route109_EventScript_1EEAE4:: @ 81EEAE4
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_RICKY_1, 0, Route109_Text_2973FF, Route109_Text_297437
+	trainerbattle_rematch TRAINER_RICKY_1, Route109_Text_2973FF, Route109_Text_297437
 	msgbox Route109_Text_297458, MSGBOX_AUTOCLOSE
 	end
 
@@ -435,7 +435,7 @@ Route109_EventScript_1EEB27:: @ 81EEB27
 	end
 
 Route109_EventScript_1EEB46:: @ 81EEB46
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_LOLA_1, 0, Route109_Text_297538, Route109_Text_297576
+	trainerbattle_rematch TRAINER_LOLA_1, Route109_Text_297538, Route109_Text_297576
 	msgbox Route109_Text_29757D, MSGBOX_AUTOCLOSE
 	end
 

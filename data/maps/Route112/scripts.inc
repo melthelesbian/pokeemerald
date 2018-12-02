@@ -83,7 +83,7 @@ Route112_EventScript_1F1EAD:: @ 81F1EAD
 	end
 
 Route112_EventScript_1F1ECC:: @ 81F1ECC
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_TRENT_1, 0, Route112_Text_2999BD, Route112_Text_2999F7
+	trainerbattle_rematch TRAINER_TRENT_1, Route112_Text_2999BD, Route112_Text_2999F7
 	msgbox Route112_Text_299A0F, MSGBOX_AUTOCLOSE
 	end
 

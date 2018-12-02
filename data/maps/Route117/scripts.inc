@@ -56,7 +56,7 @@ Route117_EventScript_1F39FC:: @ 81F39FC
 	end
 
 Route117_EventScript_1F3A1B:: @ 81F3A1B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ISAAC_1, 0, Route117_Text_29C549, Route117_Text_29C58B
+	trainerbattle_rematch TRAINER_ISAAC_1, Route117_Text_29C549, Route117_Text_29C58B
 	msgbox Route117_Text_29C5D0, MSGBOX_AUTOCLOSE
 	end
 
@@ -78,7 +78,7 @@ Route117_EventScript_1F3A5E:: @ 81F3A5E
 	end
 
 Route117_EventScript_1F3A7D:: @ 81F3A7D
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_LYDIA_1, 0, Route117_Text_29C6FD, Route117_Text_29C73E
+	trainerbattle_rematch TRAINER_LYDIA_1, Route117_Text_29C6FD, Route117_Text_29C73E
 	msgbox Route117_Text_29C75A, MSGBOX_AUTOCLOSE
 	end
 
@@ -100,7 +100,7 @@ Route117_EventScript_1F3AC0:: @ 81F3AC0
 	end
 
 Route117_EventScript_1F3ADF:: @ 81F3ADF
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_DYLAN_1, 0, Route117_Text_29C880, Route117_Text_29C8E3
+	trainerbattle_rematch TRAINER_DYLAN_1, Route117_Text_29C880, Route117_Text_29C8E3
 	msgbox Route117_Text_29C8FE, MSGBOX_AUTOCLOSE
 	end
 
@@ -122,7 +122,7 @@ Route117_EventScript_1F3B22:: @ 81F3B22
 	end
 
 Route117_EventScript_1F3B41:: @ 81F3B41
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_MARIA_1, 0, Route117_Text_29CA7C, Route117_Text_29CACC
+	trainerbattle_rematch TRAINER_MARIA_1, Route117_Text_29CA7C, Route117_Text_29CACC
 	msgbox Route117_Text_29CAF6, MSGBOX_AUTOCLOSE
 	end
 
@@ -147,7 +147,7 @@ Route117_EventScript_1F3B9F:: @ 81F3B9F
 	end
 
 Route117_EventScript_1F3BB8:: @ 81F3BB8
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_ANNA_AND_MEG_1, 0, Route117_Text_29CEB6, Route117_Text_29CEF6, Route117_Text_29CF6E
+	trainerbattle_rematch_double TRAINER_ANNA_AND_MEG_1, Route117_Text_29CEB6, Route117_Text_29CEF6, Route117_Text_29CF6E
 	msgbox Route117_Text_29CF1C, MSGBOX_AUTOCLOSE
 	end
 
@@ -167,7 +167,7 @@ Route117_EventScript_1F3C03:: @ 81F3C03
 	end
 
 Route117_EventScript_1F3C1C:: @ 81F3C1C
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_ANNA_AND_MEG_1, 0, Route117_Text_29CFAA, Route117_Text_29CFED, Route117_Text_29D053
+	trainerbattle_rematch_double TRAINER_ANNA_AND_MEG_1, Route117_Text_29CFAA, Route117_Text_29CFED, Route117_Text_29D053
 	msgbox Route117_Text_29CFFE, MSGBOX_AUTOCLOSE
 	end
 

@@ -33,7 +33,7 @@ Route106_EventScript_1EE4ED:: @ 81EE4ED
 	end
 
 Route106_EventScript_1EE50C:: @ 81EE50C
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ELLIOT_1, 0, Route106_Text_29642E, Route106_Text_296477
+	trainerbattle_rematch TRAINER_ELLIOT_1, Route106_Text_29642E, Route106_Text_296477
 	msgbox Route106_Text_296493, MSGBOX_AUTOCLOSE
 	end
 

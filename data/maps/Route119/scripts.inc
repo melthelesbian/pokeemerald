@@ -384,7 +384,7 @@ Route119_EventScript_1F483C:: @ 81F483C
 	end
 
 Route119_EventScript_1F485B:: @ 81F485B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_JACKSON_1, 0, Route119_Text_29DD62, Route119_Text_29DDA5
+	trainerbattle_rematch TRAINER_JACKSON_1, Route119_Text_29DD62, Route119_Text_29DDA5
 	msgbox Route119_Text_29DDBD, MSGBOX_AUTOCLOSE
 	end
 
@@ -406,7 +406,7 @@ Route119_EventScript_1F489E:: @ 81F489E
 	end
 
 Route119_EventScript_1F48BD:: @ 81F48BD
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_CATHERINE_1, 0, Route119_Text_29DF6B, Route119_Text_29DF92
+	trainerbattle_rematch TRAINER_CATHERINE_1, Route119_Text_29DF6B, Route119_Text_29DF92
 	msgbox Route119_Text_29DFAF, MSGBOX_AUTOCLOSE
 	end
 

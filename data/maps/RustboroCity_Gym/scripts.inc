@@ -38,7 +38,7 @@ RustboroCity_Gym_EventScript_212FA4:: @ 8212FA4
 	end
 
 RustboroCity_Gym_EventScript_212FC8:: @ 8212FC8
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_ROXANNE_1, 0, RustboroCity_Gym_Text_213C2F, RustboroCity_Gym_Text_213CF9, RustboroCity_Gym_Text_213D93
+	trainerbattle_rematch_double TRAINER_ROXANNE_1, RustboroCity_Gym_Text_213C2F, RustboroCity_Gym_Text_213CF9, RustboroCity_Gym_Text_213D93
 	msgbox RustboroCity_Gym_Text_213D12, MSGBOX_AUTOCLOSE
 	end
 

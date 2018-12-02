@@ -60,7 +60,7 @@ Route126_EventScript_1F69A3:: @ 81F69A3
 	end
 
 Route126_EventScript_1F69C2:: @ 81F69C2
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_PABLO_1, 0, Route126_Text_2A1F98, Route126_Text_2A1FD8
+	trainerbattle_rematch TRAINER_PABLO_1, Route126_Text_2A1F98, Route126_Text_2A1FD8
 	msgbox Route126_Text_2A200C, MSGBOX_AUTOCLOSE
 	end
 

@@ -79,7 +79,7 @@ Route127_EventScript_1F6B02:: @ 81F6B02
 	end
 
 Route127_EventScript_1F6B21:: @ 81F6B21
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_KOJI_1, 0, Route127_Text_2A2734, Route127_Text_2A276B
+	trainerbattle_rematch TRAINER_KOJI_1, Route127_Text_2A2734, Route127_Text_2A276B
 	msgbox Route127_Text_2A278E, MSGBOX_AUTOCLOSE
 	end
 

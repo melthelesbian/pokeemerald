@@ -28,7 +28,7 @@ AbandonedShip_Rooms_1F_EventScript_237ADF:: @ 8237ADF
 	end
 
 AbandonedShip_Rooms_1F_EventScript_237AFE:: @ 8237AFE
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_THALIA_1, 0, AbandonedShip_Rooms_1F_Text_237C69, AbandonedShip_Rooms_1F_Text_237CB2
+	trainerbattle_rematch TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_237C69, AbandonedShip_Rooms_1F_Text_237CB2
 	msgbox AbandonedShip_Rooms_1F_Text_237CC9, MSGBOX_AUTOCLOSE
 	end
 

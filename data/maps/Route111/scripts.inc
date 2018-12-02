@@ -489,7 +489,7 @@ Route111_EventScript_1F128C:: @ 81F128C
 	end
 
 Route111_EventScript_1F12AB:: @ 81F12AB
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_DUSTY_1, 0, Route111_Text_298C5F, Route111_Text_298CD2
+	trainerbattle_rematch TRAINER_DUSTY_1, Route111_Text_298C5F, Route111_Text_298CD2
 	msgbox Route111_Text_298D0C, MSGBOX_AUTOCLOSE
 	end
 
@@ -526,7 +526,7 @@ Route111_EventScript_1F1333:: @ 81F1333
 	end
 
 Route111_EventScript_1F1352:: @ 81F1352
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_WILTON_1, 0, Route111_Text_29909B, Route111_Text_2990EE
+	trainerbattle_rematch TRAINER_WILTON_1, Route111_Text_29909B, Route111_Text_2990EE
 	msgbox Route111_Text_299102, MSGBOX_AUTOCLOSE
 	end
 
@@ -548,7 +548,7 @@ Route111_EventScript_1F1395:: @ 81F1395
 	end
 
 Route111_EventScript_1F13B4:: @ 81F13B4
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_BROOKE_1, 0, Route111_Text_29925D, Route111_Text_2992D6
+	trainerbattle_rematch TRAINER_BROOKE_1, Route111_Text_29925D, Route111_Text_2992D6
 	msgbox Route111_Text_2992F5, MSGBOX_AUTOCLOSE
 	end
 

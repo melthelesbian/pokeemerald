@@ -39,7 +39,7 @@ Route124_EventScript_1F65DF:: @ 81F65DF
 	end
 
 Route124_EventScript_1F65FE:: @ 81F65FE
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_JENNY_1, 0, Route124_Text_2A0C60, Route124_Text_2A0CA0
+	trainerbattle_rematch TRAINER_JENNY_1, Route124_Text_2A0C60, Route124_Text_2A0CA0
 	msgbox Route124_Text_2A0CBE, MSGBOX_AUTOCLOSE
 	end
 
@@ -69,7 +69,7 @@ Route124_EventScript_1F6673:: @ 81F6673
 	end
 
 Route124_EventScript_1F668C:: @ 81F668C
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_LILA_AND_ROY_1, 0, Route124_Text_2A111E, Route124_Text_2A11B2, Route124_Text_2A1255
+	trainerbattle_rematch_double TRAINER_LILA_AND_ROY_1, Route124_Text_2A111E, Route124_Text_2A11B2, Route124_Text_2A1255
 	msgbox Route124_Text_2A1203, MSGBOX_AUTOCLOSE
 	end
 
@@ -89,7 +89,7 @@ Route124_EventScript_1F66D7:: @ 81F66D7
 	end
 
 Route124_EventScript_1F66F0:: @ 81F66F0
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_LILA_AND_ROY_1, 0, Route124_Text_2A129A, Route124_Text_2A12DD, Route124_Text_2A1384
+	trainerbattle_rematch_double TRAINER_LILA_AND_ROY_1, Route124_Text_2A129A, Route124_Text_2A12DD, Route124_Text_2A1384
 	msgbox Route124_Text_2A130F, MSGBOX_AUTOCLOSE
 	end
 

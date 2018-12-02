@@ -114,7 +114,7 @@ LavaridgeTown_Gym_1F_EventScript_1FE841:: @ 81FE841
 	return
 
 LavaridgeTown_Gym_1F_EventScript_1FE864:: @ 81FE864
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_FLANNERY_1, 0, LavaridgeTown_Gym_1F_Text_1FF601, LavaridgeTown_Gym_1F_Text_1FF69F, LavaridgeTown_Gym_1F_Text_1FF75E
+	trainerbattle_rematch_double TRAINER_FLANNERY_1, LavaridgeTown_Gym_1F_Text_1FF601, LavaridgeTown_Gym_1F_Text_1FF69F, LavaridgeTown_Gym_1F_Text_1FF75E
 	msgbox LavaridgeTown_Gym_1F_Text_1FF6BF, MSGBOX_AUTOCLOSE
 	end
 

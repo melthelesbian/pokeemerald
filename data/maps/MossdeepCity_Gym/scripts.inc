@@ -109,7 +109,7 @@ MossdeepCity_Gym_EventScript_22095B:: @ 822095B
 	return
 
 MossdeepCity_Gym_EventScript_22097E:: @ 822097E
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_TATE_AND_LIZA_1, 0, MossdeepCity_Gym_Text_221D0B, MossdeepCity_Gym_Text_221E05, MossdeepCity_Gym_Text_221EB8
+	trainerbattle_rematch_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_221D0B, MossdeepCity_Gym_Text_221E05, MossdeepCity_Gym_Text_221EB8
 	msgbox MossdeepCity_Gym_Text_221E45, MSGBOX_AUTOCLOSE
 	end
 

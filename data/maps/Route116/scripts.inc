@@ -298,7 +298,7 @@ Route116_EventScript_1F2F35:: @ 81F2F35
 	end
 
 Route116_EventScript_1F2F4E:: @ 81F2F4E
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_JERRY_1, 0, Route116_Text_29BEF3, Route116_Text_29BF4C
+	trainerbattle_rematch TRAINER_JERRY_1, Route116_Text_29BEF3, Route116_Text_29BF4C
 	msgbox Route116_Text_29BF68, MSGBOX_AUTOCLOSE
 	end
 
@@ -353,7 +353,7 @@ Route116_EventScript_1F3011:: @ 81F3011
 	end
 
 Route116_EventScript_1F302A:: @ 81F302A
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_KAREN_1, 0, Route116_Text_29C0DA, Route116_Text_29C11F
+	trainerbattle_rematch TRAINER_KAREN_1, Route116_Text_29C0DA, Route116_Text_29C11F
 	msgbox Route116_Text_29C13B, MSGBOX_AUTOCLOSE
 	end
 

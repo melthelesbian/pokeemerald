@@ -313,7 +313,7 @@ Route120_EventScript_1F581A:: @ 81F581A
 	end
 
 Route120_EventScript_1F5839:: @ 81F5839
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_ROBERT_1, 0, Route120_Text_29E7AA, Route120_Text_29E7E1
+	trainerbattle_rematch TRAINER_ROBERT_1, Route120_Text_29E7AA, Route120_Text_29E7E1
 	msgbox Route120_Text_29E804, MSGBOX_AUTOCLOSE
 	end
 
@@ -345,7 +345,7 @@ Route120_EventScript_1F58AA:: @ 81F58AA
 	end
 
 Route120_EventScript_1F58C9:: @ 81F58C9
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_JEFFREY_1, 0, Route120_Text_29EA61, Route120_Text_29EA8F
+	trainerbattle_rematch TRAINER_JEFFREY_1, Route120_Text_29EA61, Route120_Text_29EA8F
 	msgbox Route120_Text_29EAA9, MSGBOX_AUTOCLOSE
 	end
 

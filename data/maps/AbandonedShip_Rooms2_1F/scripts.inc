@@ -17,7 +17,7 @@ AbandonedShip_Rooms2_1F_EventScript_2380D7:: @ 82380D7
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_2380F0:: @ 82380F0
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_KIRA_AND_DAN_1, 0, AbandonedShip_Rooms2_1F_Text_2383FF, AbandonedShip_Rooms2_1F_Text_238473, AbandonedShip_Rooms2_1F_Text_238509
+	trainerbattle_rematch_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_2383FF, AbandonedShip_Rooms2_1F_Text_238473, AbandonedShip_Rooms2_1F_Text_238509
 	msgbox AbandonedShip_Rooms2_1F_Text_238491, MSGBOX_AUTOCLOSE
 	end
 
@@ -37,7 +37,7 @@ AbandonedShip_Rooms2_1F_EventScript_23813B:: @ 823813B
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_238154:: @ 8238154
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_KIRA_AND_DAN_1, 0, AbandonedShip_Rooms2_1F_Text_238556, AbandonedShip_Rooms2_1F_Text_2385F2, AbandonedShip_Rooms2_1F_Text_238668
+	trainerbattle_rematch_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_238556, AbandonedShip_Rooms2_1F_Text_2385F2, AbandonedShip_Rooms2_1F_Text_238668
 	msgbox AbandonedShip_Rooms2_1F_Text_23860B, MSGBOX_AUTOCLOSE
 	end
 

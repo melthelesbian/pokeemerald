@@ -19,7 +19,7 @@ MtPyre_6F_EventScript_231D67:: @ 8231D67
 	end
 
 MtPyre_6F_EventScript_231D86:: @ 8231D86
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_VALERIE_1, 0, MtPyre_6F_Text_231EB3, MtPyre_6F_Text_231ECB
+	trainerbattle_rematch TRAINER_VALERIE_1, MtPyre_6F_Text_231EB3, MtPyre_6F_Text_231ECB
 	msgbox MtPyre_6F_Text_231EE1, MSGBOX_AUTOCLOSE
 	end
 

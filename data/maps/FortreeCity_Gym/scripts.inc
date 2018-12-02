@@ -67,7 +67,7 @@ FortreeCity_Gym_EventScript_21666A:: @ 821666A
 	return
 
 FortreeCity_Gym_EventScript_21668D:: @ 821668D
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_WINONA_1, 0, FortreeCity_Gym_Text_217100, FortreeCity_Gym_Text_2171E6, FortreeCity_Gym_Text_217292
+	trainerbattle_rematch_double TRAINER_WINONA_1, FortreeCity_Gym_Text_217100, FortreeCity_Gym_Text_2171E6, FortreeCity_Gym_Text_217292
 	msgbox FortreeCity_Gym_Text_21720B, MSGBOX_AUTOCLOSE
 	end
 

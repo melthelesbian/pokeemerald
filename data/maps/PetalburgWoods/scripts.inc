@@ -318,7 +318,7 @@ PetalburgWoods_EventScript_22E302:: @ 822E302
 	end
 
 PetalburgWoods_EventScript_22E31B:: @ 822E31B
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_JAMES_1, 0, PetalburgWoods_Text_22E966, PetalburgWoods_Text_22E998
+	trainerbattle_rematch TRAINER_JAMES_1, PetalburgWoods_Text_22E966, PetalburgWoods_Text_22E998
 	msgbox PetalburgWoods_Text_22E9B6, MSGBOX_AUTOCLOSE
 	end
 

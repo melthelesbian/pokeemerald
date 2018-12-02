@@ -54,7 +54,7 @@ Route115_EventScript_1F29BA:: @ 81F29BA
 	end
 
 Route115_EventScript_1F29D9:: @ 81F29D9
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_TIMOTHY_1, 0, Route115_Text_29B32C, Route115_Text_29B372
+	trainerbattle_rematch TRAINER_TIMOTHY_1, Route115_Text_29B32C, Route115_Text_29B372
 	msgbox Route115_Text_29B385, MSGBOX_AUTOCLOSE
 	end
 
@@ -81,7 +81,7 @@ Route115_EventScript_1F2A33:: @ 81F2A33
 	end
 
 Route115_EventScript_1F2A52:: @ 81F2A52
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_NOB_1, 0, Route115_Text_29B547, Route115_Text_29B59D
+	trainerbattle_rematch TRAINER_NOB_1, Route115_Text_29B547, Route115_Text_29B59D
 	msgbox Route115_Text_29B5B5, MSGBOX_AUTOCLOSE
 	end
 
@@ -103,7 +103,7 @@ Route115_EventScript_1F2A95:: @ 81F2A95
 	end
 
 Route115_EventScript_1F2AB4:: @ 81F2AB4
-	trainerbattle TRAINER_BATTLE_REMATCH, TRAINER_CYNDY_1, 0, Route115_Text_29B6FA, Route115_Text_29B71A
+	trainerbattle_rematch TRAINER_CYNDY_1, Route115_Text_29B6FA, Route115_Text_29B71A
 	msgbox Route115_Text_29B737, MSGBOX_AUTOCLOSE
 	end
 

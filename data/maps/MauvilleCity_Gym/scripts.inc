@@ -140,7 +140,7 @@ MauvilleCity_Gym_EventScript_20DFD4:: @ 820DFD4
 	end
 
 MauvilleCity_Gym_EventScript_20DFDE:: @ 820DFDE
-	trainerbattle TRAINER_BATTLE_REMATCH_DOUBLE, TRAINER_WATTSON_1, 0, MauvilleCity_Gym_Text_20E9A7, MauvilleCity_Gym_Text_20EA42, MauvilleCity_Gym_Text_20EAFD
+	trainerbattle_rematch_double TRAINER_WATTSON_1, MauvilleCity_Gym_Text_20E9A7, MauvilleCity_Gym_Text_20EA42, MauvilleCity_Gym_Text_20EAFD
 	msgbox MauvilleCity_Gym_Text_20EA5E, MSGBOX_AUTOCLOSE
 	end
 
