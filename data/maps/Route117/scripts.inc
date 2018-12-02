@@ -132,7 +132,7 @@ Route117_EventScript_1F3B58:: @ 81F3B58
 	end
 
 Route117_EventScript_1F3B6F:: @ 81F3B6F
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_ANNA_AND_MEG_1, 0, Route117_Text_29CC4A, Route117_Text_29CC8E, Route117_Text_29CD61, Route117_EventScript_1F3B9F
+	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_29CC4A, Route117_Text_29CC8E, Route117_Text_29CD61, Route117_EventScript_1F3B9F
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3BB8
@@ -152,7 +152,7 @@ Route117_EventScript_1F3BB8:: @ 81F3BB8
 	end
 
 Route117_EventScript_1F3BD3:: @ 81F3BD3
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_ANNA_AND_MEG_1, 0, Route117_Text_29CD9D, Route117_Text_29CDE9, Route117_Text_29CE52, Route117_EventScript_1F3C03
+	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_29CD9D, Route117_Text_29CDE9, Route117_Text_29CE52, Route117_EventScript_1F3C03
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3C1C

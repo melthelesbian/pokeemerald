@@ -49,7 +49,7 @@ MossdeepCity_Gym_EventScript_220885:: @ 8220885
 	end
 
 MossdeepCity_Gym_EventScript_220898:: @ 8220898
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE_NO_MUSIC, TRAINER_TATE_AND_LIZA_1, 0, MossdeepCity_Gym_Text_221783, MossdeepCity_Gym_Text_2218EC, MossdeepCity_Gym_Text_221BCE, MossdeepCity_Gym_EventScript_2208D1
+	trainerbattle_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_221783, MossdeepCity_Gym_Text_2218EC, MossdeepCity_Gym_Text_221BCE, MossdeepCity_Gym_EventScript_2208D1, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq MossdeepCity_Gym_EventScript_22097E

@@ -208,7 +208,7 @@ Route103_EventScript_1EC5F4:: @ 81EC5F4
 	end
 
 Route103_EventScript_1EC60B:: @ 81EC60B
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_AMY_AND_LIV_1, 0, Route103_Text_2949F9, Route103_Text_294A3D, Route103_Text_294AAE, Route103_EventScript_1EC63A
+	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_2949F9, Route103_Text_294A3D, Route103_Text_294AAE, Route103_EventScript_1EC63A
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route103_EventScript_1EC653
@@ -227,7 +227,7 @@ Route103_EventScript_1EC653:: @ 81EC653
 	end
 
 Route103_EventScript_1EC66E:: @ 81EC66E
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_AMY_AND_LIV_1, 0, Route103_Text_294AFD, Route103_Text_294B22, Route103_Text_294BD0, Route103_EventScript_1EC69D
+	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_294AFD, Route103_Text_294B22, Route103_Text_294BD0, Route103_EventScript_1EC69D
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route103_EventScript_1EC6B6

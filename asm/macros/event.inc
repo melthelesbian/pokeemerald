@@ -686,7 +686,7 @@
 	NO_MUSIC = FALSE
 
 	@ Starts a normal trainer battle
-	.macro trainerbattle_normal trainer, intro_text, lose_text, event_script=0, music=TRUE
+	.macro trainerbattle_normal trainer, intro_text, lose_text, event_script=FALSE, music=TRUE
 	.if \event_script == FALSE
 	trainerbattle TRAINER_BATTLE_NORMAL, \trainer, 0, \intro_text, \lose_text
 	.elseif \event_script != FALSE && \music == TRUE
@@ -697,8 +697,14 @@
 	.endm
 
 	@ Starts a double trainer battle
-	.macro trainerbattle_double trainer, intro_text, lose_text, not_enough_pkmn_text
+	.macro trainerbattle_double trainer, intro_text, lose_text, not_enough_pkmn_text, event_script=FALSE, music=TRUE
+	.if \event_script == FALSE
 	trainerbattle TRAINER_BATTLE_DOUBLE, \trainer, 0, \intro_text, \lose_text, \not_enough_pkmn_text
+	.elseif \event_script != FALSE && \music == TRUE
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, \trainer, 0, \intro_text, \lose_text, \not_enough_pkmn_text, \event_script
+	.else
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE_NO_MUSIC, \trainer, 0, \intro_text, \lose_text, \not_enough_pkmn_text, \event_script
+	.endif
 	.endm
 
 	@ Starts a trainer battle using the battle information stored in RAM (usually by trainerbattle, which actually calls this command behind-the-scenes), and blocks script execution until the battle finishes.

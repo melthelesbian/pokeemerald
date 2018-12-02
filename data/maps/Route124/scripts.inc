@@ -54,7 +54,7 @@ Route124_EventScript_1F662C:: @ 81F662C
 	end
 
 Route124_EventScript_1F6643:: @ 81F6643
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_LILA_AND_ROY_1, 0, Route124_Text_2A0E87, Route124_Text_2A0EFE, Route124_Text_2A0F8C, Route124_EventScript_1F6673
+	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_2A0E87, Route124_Text_2A0EFE, Route124_Text_2A0F8C, Route124_EventScript_1F6673
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route124_EventScript_1F668C
@@ -74,7 +74,7 @@ Route124_EventScript_1F668C:: @ 81F668C
 	end
 
 Route124_EventScript_1F66A7:: @ 81F66A7
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE, TRAINER_LILA_AND_ROY_1, 0, Route124_Text_2A0FD1, Route124_Text_2A1012, Route124_Text_2A10E5, Route124_EventScript_1F66D7
+	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_2A0FD1, Route124_Text_2A1012, Route124_Text_2A10E5, Route124_EventScript_1F66D7
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route124_EventScript_1F66F0
