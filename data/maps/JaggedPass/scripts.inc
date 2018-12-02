@@ -80,7 +80,7 @@ JaggedPass_EventScript_230718:: @ 8230718
 	waitmovement 0
 	msgbox JaggedPass_Text_230CCB, MSGBOX_DEFAULT
 	closemessage
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_GRUNT_30, 0, JaggedPass_Text_230D2D
+	trainerbattle_no_intro TRAINER_GRUNT_30, JaggedPass_Text_230D2D
 	setflag FLAG_0x139
 	applymovement 5, JaggedPass_Movement_2725A2
 	waitmovement 0

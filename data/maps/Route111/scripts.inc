@@ -288,7 +288,7 @@ Route111_EventScript_1F0FC5:: @ 81F0FC5
 
 Route111_EventScript_1F0FE7:: @ 81F0FE7
 	msgbox Route111_Text_1F1523, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_VICTOR, 0, Route111_Text_1F1542
+	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_1F1542
 	applymovement 1, Route111_Movement_2725A6
 	waitmovement 0
 	call Route111_EventScript_1F113C
@@ -306,7 +306,7 @@ Route111_EventScript_1F0FE7:: @ 81F0FE7
 	waitmovement 0
 	call Route111_EventScript_1F1143
 	msgbox Route111_Text_1F159D, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_VICTORIA, 0, Route111_Text_1F1616
+	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_1F1616
 	applymovement 2, Route111_Movement_2725A6
 	waitmovement 0
 	call Route111_EventScript_1F113C
@@ -324,7 +324,7 @@ Route111_EventScript_1F0FE7:: @ 81F0FE7
 	waitmovement 0
 	call Route111_EventScript_1F1143
 	msgbox Route111_Text_1F167E, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_VIVI, 0, Route111_Text_1F16C6
+	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_1F16C6
 	applymovement 3, Route111_Movement_2725A6
 	waitmovement 0
 	call Route111_EventScript_1F113C
@@ -342,7 +342,7 @@ Route111_EventScript_1F0FE7:: @ 81F0FE7
 	waitmovement 0
 	call Route111_EventScript_1F1143
 	msgbox Route111_Text_1F16FB, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_VICKY, 0, Route111_Text_1F1756
+	trainerbattle_no_intro TRAINER_VICKY, Route111_Text_1F1756
 	msgbox Route111_Text_1F1788, MSGBOX_DEFAULT
 	closemessage
 	applymovement 4, Route111_Movement_2725A6

@@ -26,7 +26,7 @@ PetalburgWoods_EventScript_22DFD7:: @ 822DFD7
 	applymovement 3, PetalburgWoods_Movement_22E20E
 	waitmovement 0
 	msgbox PetalburgWoods_Text_22E4A5, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_GRUNT_8, 0, PetalburgWoods_Text_22E542
+	trainerbattle_no_intro TRAINER_GRUNT_8, PetalburgWoods_Text_22E542
 	applymovement 3, PetalburgWoods_Movement_22E1F9
 	waitmovement 0
 	call PetalburgWoods_EventScript_22E138
@@ -62,7 +62,7 @@ PetalburgWoods_EventScript_22E079:: @ 822E079
 	applymovement 255, PetalburgWoods_Movement_2725A6
 	waitmovement 0
 	msgbox PetalburgWoods_Text_22E4A5, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_GRUNT_8, 0, PetalburgWoods_Text_22E542
+	trainerbattle_no_intro TRAINER_GRUNT_8, PetalburgWoods_Text_22E542
 	applymovement 3, PetalburgWoods_Movement_22E1F9
 	waitmovement 0
 	call PetalburgWoods_EventScript_22E138

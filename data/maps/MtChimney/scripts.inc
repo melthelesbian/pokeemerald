@@ -45,7 +45,7 @@ MtChimney_EventScript_22EE0B:: @ 822EE0B
 	applymovement 2, MtChimney_Movement_27259A
 	waitmovement 0
 	msgbox MtChimney_Text_22F32E, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAXIE_2, 0, MtChimney_Text_22F5CF
+	trainerbattle_no_intro TRAINER_MAXIE_2, MtChimney_Text_22F5CF
 	msgbox MtChimney_Text_22F5F7, MSGBOX_DEFAULT
 	closemessage
 	delay 30

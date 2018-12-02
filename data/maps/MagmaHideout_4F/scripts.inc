@@ -57,7 +57,7 @@ MagmaHideout_4F_EventScript_23A560:: @ 823A560
 	waitmovement 0
 	msgbox MagmaHideout_4F_Text_23AB33, MSGBOX_DEFAULT
 	closemessage
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAXIE_1, 0, MagmaHideout_4F_Text_23ABB5
+	trainerbattle_no_intro TRAINER_MAXIE_1, MagmaHideout_4F_Text_23ABB5
 	msgbox MagmaHideout_4F_Text_23ABE2, MSGBOX_DEFAULT
 	closemessage
 	clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN

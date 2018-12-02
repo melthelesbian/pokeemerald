@@ -413,7 +413,7 @@ PetalburgCity_Gym_EventScript_204E1D:: @ 8204E1D
 
 PetalburgCity_Gym_EventScript_204E3B:: @ 8204E3B
 	msgbox PetalburgCity_Gym_Text_205FE5, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_NORMAN_1, 0, PetalburgCity_Gym_Text_206107
+	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_206107
 	message PetalburgCity_Gym_Text_206162
 	waitmessage
 	call PetalburgCity_Gym_EventScript_27207E

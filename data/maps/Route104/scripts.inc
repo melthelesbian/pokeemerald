@@ -172,19 +172,19 @@ Route104_EventScript_1ECE31:: @ 81ECE31
 	return
 
 Route104_EventScript_1ECE36:: @ 81ECE36
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_14, 0, Route104_Text_1EDE18
+	trainerbattle_no_intro TRAINER_MAY_14, Route104_Text_1EDE18
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECE1C
 	end
 
 Route104_EventScript_1ECE49:: @ 81ECE49
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_15, 0, Route104_Text_1EDE18
+	trainerbattle_no_intro TRAINER_MAY_15, Route104_Text_1EDE18
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECE1C
 	end
 
 Route104_EventScript_1ECE5C:: @ 81ECE5C
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_10, 0, Route104_Text_1EDE18
+	trainerbattle_no_intro TRAINER_MAY_10, Route104_Text_1EDE18
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECE1C
 	end
@@ -244,19 +244,19 @@ Route104_EventScript_1ECF38:: @ 81ECF38
 	end
 
 Route104_EventScript_1ECF4D:: @ 81ECF4D
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_10, 0, Route104_Text_1EE107
+	trainerbattle_no_intro TRAINER_BRENDAN_10, Route104_Text_1EE107
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECF38
 	end
 
 Route104_EventScript_1ECF60:: @ 81ECF60
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_12, 0, Route104_Text_1EE107
+	trainerbattle_no_intro TRAINER_BRENDAN_12, Route104_Text_1EE107
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECF38
 	end
 
 Route104_EventScript_1ECF73:: @ 81ECF73
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_11, 0, Route104_Text_1EE107
+	trainerbattle_no_intro TRAINER_BRENDAN_11, Route104_Text_1EE107
 	setflag FLAG_0x07D
 	goto Route104_EventScript_1ECF38
 	end

@@ -421,17 +421,17 @@ Route110_EventScript_1EF7EB:: @ 81EF7EB
 	end
 
 Route110_EventScript_1EF81A:: @ 81EF81A
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_5, 0, Route110_Text_1EFCCB
+	trainerbattle_no_intro TRAINER_MAY_5, Route110_Text_1EFCCB
 	goto Route110_EventScript_1EF84A
 	end
 
 Route110_EventScript_1EF82A:: @ 81EF82A
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_8, 0, Route110_Text_1EFCCB
+	trainerbattle_no_intro TRAINER_MAY_8, Route110_Text_1EFCCB
 	goto Route110_EventScript_1EF84A
 	end
 
 Route110_EventScript_1EF83A:: @ 81EF83A
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_MAY_2, 0, Route110_Text_1EFCCB
+	trainerbattle_no_intro TRAINER_MAY_2, Route110_Text_1EFCCB
 	goto Route110_EventScript_1EF84A
 	end
 
@@ -451,17 +451,17 @@ Route110_EventScript_1EF865:: @ 81EF865
 	end
 
 Route110_EventScript_1EF894:: @ 81EF894
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_5, 0, Route110_Text_1EFEB4
+	trainerbattle_no_intro TRAINER_BRENDAN_5, Route110_Text_1EFEB4
 	goto Route110_EventScript_1EF8C4
 	end
 
 Route110_EventScript_1EF8A4:: @ 81EF8A4
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_8, 0, Route110_Text_1EFEB4
+	trainerbattle_no_intro TRAINER_BRENDAN_8, Route110_Text_1EFEB4
 	goto Route110_EventScript_1EF8C4
 	end
 
 Route110_EventScript_1EF8B4:: @ 81EF8B4
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_BRENDAN_2, 0, Route110_Text_1EFEB4
+	trainerbattle_no_intro TRAINER_BRENDAN_2, Route110_Text_1EFEB4
 	goto Route110_EventScript_1EF8C4
 	end
 

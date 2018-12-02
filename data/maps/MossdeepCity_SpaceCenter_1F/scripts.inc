@@ -239,7 +239,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_22321F:: @ 822321F
 	checkflag FLAG_0x0BF
 	goto_eq MossdeepCity_SpaceCenter_1F_EventScript_22326E
 	msgbox MossdeepCity_SpaceCenter_1F_Text_223B90, MSGBOX_DEFAULT
-	trainerbattle TRAINER_BATTLE_NORMAL_NO_INTRO_TEXT, TRAINER_GRUNT_23, 0, MossdeepCity_SpaceCenter_1F_Text_223BC2
+	trainerbattle_no_intro TRAINER_GRUNT_23, MossdeepCity_SpaceCenter_1F_Text_223BC2
 	setflag FLAG_0x0BF
 	moveobjectoffscreen 9
 	switch VAR_FACING
