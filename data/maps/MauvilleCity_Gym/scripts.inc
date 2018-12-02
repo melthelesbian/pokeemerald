@@ -76,7 +76,7 @@ MauvilleCity_Gym_EventScript_20DEE7:: @ 820DEE7
 	end
 
 MauvilleCity_Gym_EventScript_20DEEB:: @ 820DEEB
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, TRAINER_WATTSON_1, 0, MauvilleCity_Gym_Text_20E602, MauvilleCity_Gym_Text_20E734, MauvilleCity_Gym_EventScript_20DF2B
+	trainerbattle_normal TRAINER_WATTSON_1, MauvilleCity_Gym_Text_20E602, MauvilleCity_Gym_Text_20E734, MauvilleCity_Gym_EventScript_20DF2B, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq MauvilleCity_Gym_EventScript_20DFDE

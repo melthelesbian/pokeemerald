@@ -367,7 +367,7 @@ Route119_EventScript_1F47F9:: @ 81F47F9
 	end
 
 Route119_EventScript_1F4810:: @ 81F4810
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_JACKSON_1, 0, Route119_Text_29DC4C, Route119_Text_29DC9F, Route119_EventScript_1F483C
+	trainerbattle_normal TRAINER_JACKSON_1, Route119_Text_29DC4C, Route119_Text_29DC9F, Route119_EventScript_1F483C
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route119_EventScript_1F485B
@@ -389,7 +389,7 @@ Route119_EventScript_1F485B:: @ 81F485B
 	end
 
 Route119_EventScript_1F4872:: @ 81F4872
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_CATHERINE_1, 0, Route119_Text_29DE0F, Route119_Text_29DE5D, Route119_EventScript_1F489E
+	trainerbattle_normal TRAINER_CATHERINE_1, Route119_Text_29DE0F, Route119_Text_29DE5D, Route119_EventScript_1F489E
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route119_EventScript_1F48BD

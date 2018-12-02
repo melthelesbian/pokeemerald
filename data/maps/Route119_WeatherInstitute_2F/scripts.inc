@@ -42,7 +42,7 @@ Route119_WeatherInstitute_2F_EventScript_26FF96:: @ 826FF96
 	end
 
 Route119_WeatherInstitute_2F_EventScript_26FFAD:: @ 826FFAD
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_SHELLY_1, 0, Route119_WeatherInstitute_2F_Text_270409, Route119_WeatherInstitute_2F_Text_2704BD, Route119_WeatherInstitute_2F_EventScript_26FFC8
+	trainerbattle_normal TRAINER_SHELLY_1, Route119_WeatherInstitute_2F_Text_270409, Route119_WeatherInstitute_2F_Text_2704BD, Route119_WeatherInstitute_2F_EventScript_26FFC8
 	msgbox Route119_WeatherInstitute_2F_Text_2704E4, MSGBOX_AUTOCLOSE
 	end
 

@@ -61,7 +61,7 @@ Route123_EventScript_1F61F3:: @ 81F61F3
 	end
 
 Route123_EventScript_1F620A:: @ 81F620A
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_CAMERON_1, 0, Route123_Text_29FDBA, Route123_Text_29FE1E, Route123_EventScript_1F6236
+	trainerbattle_normal TRAINER_CAMERON_1, Route123_Text_29FDBA, Route123_Text_29FE1E, Route123_EventScript_1F6236
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route123_EventScript_1F6255
@@ -83,7 +83,7 @@ Route123_EventScript_1F6255:: @ 81F6255
 	end
 
 Route123_EventScript_1F626C:: @ 81F626C
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_JACKI_1, 0, Route123_Text_29FF61, Route123_Text_29FFD8, Route123_EventScript_1F6298
+	trainerbattle_normal TRAINER_JACKI_1, Route123_Text_29FF61, Route123_Text_29FFD8, Route123_EventScript_1F6298
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route123_EventScript_1F62B7
@@ -155,7 +155,7 @@ Route123_EventScript_1F63A5:: @ 81F63A5
 	end
 
 Route123_EventScript_1F63BC:: @ 81F63BC
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_FERNANDO_1, 0, Route123_Text_2A0323, Route123_Text_2A035C, Route123_EventScript_1F63E8
+	trainerbattle_normal TRAINER_FERNANDO_1, Route123_Text_2A0323, Route123_Text_2A035C, Route123_EventScript_1F63E8
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route123_EventScript_1F6407

@@ -12,7 +12,7 @@ MtPyre_3F_EventScript_23176A:: @ 823176A
 	end
 
 MtPyre_3F_EventScript_231781:: @ 8231781
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_GABRIELLE_1, 0, MtPyre_3F_Text_231952, MtPyre_3F_Text_23196A, MtPyre_3F_EventScript_2317AD
+	trainerbattle_normal TRAINER_GABRIELLE_1, MtPyre_3F_Text_231952, MtPyre_3F_Text_23196A, MtPyre_3F_EventScript_2317AD
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq MtPyre_3F_EventScript_2317CC

@@ -62,7 +62,7 @@ Route105_EventScript_1EE2BD:: @ 81EE2BD
 	end
 
 Route105_EventScript_1EE2D4:: @ 81EE2D4
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ANDRES_1, 0, Route105_Text_2960A9, Route105_Text_2960DB, Route105_EventScript_1EE300
+	trainerbattle_normal TRAINER_ANDRES_1, Route105_Text_2960A9, Route105_Text_2960DB, Route105_EventScript_1EE300
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route105_EventScript_1EE31F

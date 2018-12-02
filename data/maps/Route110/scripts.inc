@@ -175,7 +175,7 @@ Route110_EventScript_1EF409:: @ 81EF409
 	end
 
 Route110_EventScript_1EF420:: @ 81EF420
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_EDWIN_1, 0, Route110_Text_29815E, Route110_Text_29818F, Route110_EventScript_1EF44C
+	trainerbattle_normal TRAINER_EDWIN_1, Route110_Text_29815E, Route110_Text_29818F, Route110_EventScript_1EF44C
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route110_EventScript_1EF46B
@@ -212,7 +212,7 @@ Route110_EventScript_1EF4B0:: @ 81EF4B0
 	end
 
 Route110_EventScript_1EF4C7:: @ 81EF4C7
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_BENJAMIN_1, 0, Route110_Text_297C63, Route110_Text_297C8A, Route110_EventScript_1EF4F3
+	trainerbattle_normal TRAINER_BENJAMIN_1, Route110_Text_297C63, Route110_Text_297C8A, Route110_EventScript_1EF4F3
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route110_EventScript_1EF512
@@ -239,7 +239,7 @@ Route110_EventScript_1EF529:: @ 81EF529
 	end
 
 Route110_EventScript_1EF540:: @ 81EF540
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ABIGAIL_1, 0, Route110_Text_297DFA, Route110_Text_297E69, Route110_EventScript_1EF56C
+	trainerbattle_normal TRAINER_ABIGAIL_1, Route110_Text_297DFA, Route110_Text_297E69, Route110_EventScript_1EF56C
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route110_EventScript_1EF58B
@@ -261,7 +261,7 @@ Route110_EventScript_1EF58B:: @ 81EF58B
 	end
 
 Route110_EventScript_1EF5A2:: @ 81EF5A2
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ISABEL_1, 0, Route110_Text_298349, Route110_Text_298389, Route110_EventScript_1EF5CE
+	trainerbattle_normal TRAINER_ISABEL_1, Route110_Text_298349, Route110_Text_298389, Route110_EventScript_1EF5CE
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route110_EventScript_1EF5ED

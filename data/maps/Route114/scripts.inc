@@ -109,7 +109,7 @@ Route114_EventScript_1F2685:: @ 81F2685
 	end
 
 Route114_EventScript_1F269C:: @ 81F269C
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_STEVE_1, 0, Route114_Text_29A943, Route114_Text_29A973, Route114_EventScript_1F26C8
+	trainerbattle_normal TRAINER_STEVE_1, Route114_Text_29A943, Route114_Text_29A973, Route114_EventScript_1F26C8
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route114_EventScript_1F26E7
@@ -131,7 +131,7 @@ Route114_EventScript_1F26E7:: @ 81F26E7
 	end
 
 Route114_EventScript_1F26FE:: @ 81F26FE
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_BERNIE_1, 0, Route114_Text_29AADB, Route114_Text_29AB1A, Route114_EventScript_1F272A
+	trainerbattle_normal TRAINER_BERNIE_1, Route114_Text_29AADB, Route114_Text_29AB1A, Route114_EventScript_1F272A
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route114_EventScript_1F2749

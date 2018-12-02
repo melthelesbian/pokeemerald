@@ -176,7 +176,7 @@ Route128_Movement_1F6CBB: @ 81F6CBB
 	step_end
 
 Route128_EventScript_1F6CBE:: @ 81F6CBE
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ISAIAH_1, 0, Route128_Text_2A287F, Route128_Text_2A28AB, Route128_EventScript_1F6CEA
+	trainerbattle_normal TRAINER_ISAIAH_1, Route128_Text_2A287F, Route128_Text_2A28AB, Route128_EventScript_1F6CEA
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route128_EventScript_1F6D09
@@ -198,7 +198,7 @@ Route128_EventScript_1F6D09:: @ 81F6D09
 	end
 
 Route128_EventScript_1F6D20:: @ 81F6D20
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_KATELYN_1, 0, Route128_Text_2A2A1F, Route128_Text_2A2A94, Route128_EventScript_1F6D4C
+	trainerbattle_normal TRAINER_KATELYN_1, Route128_Text_2A2A1F, Route128_Text_2A2A94, Route128_EventScript_1F6D4C
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route128_EventScript_1F6D6B

@@ -16,7 +16,7 @@ FortreeCity_Gym_EventScript_2165C4:: @ 82165C4
 	end
 
 FortreeCity_Gym_EventScript_2165C8:: @ 82165C8
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, TRAINER_WINONA_1, 0, FortreeCity_Gym_Text_216D75, FortreeCity_Gym_Text_216E60, FortreeCity_Gym_EventScript_2165FD
+	trainerbattle_normal TRAINER_WINONA_1, FortreeCity_Gym_Text_216D75, FortreeCity_Gym_Text_216E60, FortreeCity_Gym_EventScript_2165FD, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq FortreeCity_Gym_EventScript_21668D

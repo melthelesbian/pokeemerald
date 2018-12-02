@@ -396,7 +396,7 @@ Route109_EventScript_1EEA82:: @ 81EEA82
 	end
 
 Route109_EventScript_1EEA99:: @ 81EEA99
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_RICKY_1, 0, Route109_Text_29733B, Route109_Text_297379, Route109_EventScript_1EEAC5
+	trainerbattle_normal TRAINER_RICKY_1, Route109_Text_29733B, Route109_Text_297379, Route109_EventScript_1EEAC5
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route109_EventScript_1EEAE4
@@ -418,7 +418,7 @@ Route109_EventScript_1EEAE4:: @ 81EEAE4
 	end
 
 Route109_EventScript_1EEAFB:: @ 81EEAFB
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_LOLA_1, 0, Route109_Text_29749C, Route109_Text_2974CF, Route109_EventScript_1EEB27
+	trainerbattle_normal TRAINER_LOLA_1, Route109_Text_29749C, Route109_Text_2974CF, Route109_EventScript_1EEB27
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route109_EventScript_1EEB46

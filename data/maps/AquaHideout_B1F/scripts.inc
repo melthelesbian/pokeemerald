@@ -85,7 +85,7 @@ AquaHideout_B1F_EventScript_233A7C:: @ 8233A7C
 	end
 
 AquaHideout_B1F_EventScript_233A85:: @ 8233A85
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_GRUNT_2, 0, AquaHideout_B1F_Text_233B03, AquaHideout_B1F_Text_233B4A, AquaHideout_B1F_EventScript_233AA0
+	trainerbattle_normal TRAINER_GRUNT_2, AquaHideout_B1F_Text_233B03, AquaHideout_B1F_Text_233B4A, AquaHideout_B1F_EventScript_233AA0
 	msgbox AquaHideout_B1F_Text_233B5E, MSGBOX_AUTOCLOSE
 	end
 
@@ -97,7 +97,7 @@ AquaHideout_B1F_EventScript_233AA0:: @ 8233AA0
 	end
 
 AquaHideout_B1F_EventScript_233AB0:: @ 8233AB0
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_GRUNT_3, 0, AquaHideout_B1F_Text_233BC5, AquaHideout_B1F_Text_233C27, AquaHideout_B1F_EventScript_233ACB
+	trainerbattle_normal TRAINER_GRUNT_3, AquaHideout_B1F_Text_233BC5, AquaHideout_B1F_Text_233C27, AquaHideout_B1F_EventScript_233ACB
 	msgbox AquaHideout_B1F_Text_233C41, MSGBOX_AUTOCLOSE
 	end
 

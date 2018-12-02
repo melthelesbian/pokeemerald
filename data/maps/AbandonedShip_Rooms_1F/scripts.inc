@@ -11,7 +11,7 @@ AbandonedShip_Rooms_1F_EventScript_237A9C:: @ 8237A9C
 	end
 
 AbandonedShip_Rooms_1F_EventScript_237AB3:: @ 8237AB3
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_THALIA_1, 0, AbandonedShip_Rooms_1F_Text_237B76, AbandonedShip_Rooms_1F_Text_237BB8, AbandonedShip_Rooms_1F_EventScript_237ADF
+	trainerbattle_normal TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_237B76, AbandonedShip_Rooms_1F_Text_237BB8, AbandonedShip_Rooms_1F_EventScript_237ADF
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq AbandonedShip_Rooms_1F_EventScript_237AFE

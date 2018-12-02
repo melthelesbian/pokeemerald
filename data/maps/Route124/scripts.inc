@@ -22,7 +22,7 @@ Route124_EventScript_1F659C:: @ 81F659C
 	end
 
 Route124_EventScript_1F65B3:: @ 81F65B3
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_JENNY_1, 0, Route124_Text_2A0B37, Route124_Text_2A0B7C, Route124_EventScript_1F65DF
+	trainerbattle_normal TRAINER_JENNY_1, Route124_Text_2A0B37, Route124_Text_2A0B7C, Route124_EventScript_1F65DF
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route124_EventScript_1F65FE

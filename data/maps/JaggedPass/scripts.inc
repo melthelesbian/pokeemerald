@@ -103,7 +103,7 @@ JaggedPass_EventScript_230785:: @ 8230785
 	end
 
 JaggedPass_EventScript_23079C:: @ 823079C
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_DIANA_1, 0, JaggedPass_Text_230974, JaggedPass_Text_2309B5, JaggedPass_EventScript_2307C8
+	trainerbattle_normal TRAINER_DIANA_1, JaggedPass_Text_230974, JaggedPass_Text_2309B5, JaggedPass_EventScript_2307C8
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq JaggedPass_EventScript_2307E4
@@ -124,7 +124,7 @@ JaggedPass_EventScript_2307E4:: @ 82307E4
 	end
 
 JaggedPass_EventScript_2307FB:: @ 82307FB
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ETHAN_1, 0, JaggedPass_Text_230B10, JaggedPass_Text_230B50, JaggedPass_EventScript_230827
+	trainerbattle_normal TRAINER_ETHAN_1, JaggedPass_Text_230B10, JaggedPass_Text_230B50, JaggedPass_EventScript_230827
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq JaggedPass_EventScript_230843

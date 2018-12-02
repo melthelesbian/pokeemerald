@@ -2,7 +2,7 @@ MtPyre_6F_MapScripts:: @ 8231D3A
 	.byte 0
 
 MtPyre_6F_EventScript_231D3B:: @ 8231D3B
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_VALERIE_1, 0, MtPyre_6F_Text_231DB4, MtPyre_6F_Text_231DE2, MtPyre_6F_EventScript_231D67
+	trainerbattle_normal TRAINER_VALERIE_1, MtPyre_6F_Text_231DB4, MtPyre_6F_Text_231DE2, MtPyre_6F_EventScript_231D67
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq MtPyre_6F_EventScript_231D86

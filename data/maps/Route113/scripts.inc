@@ -59,7 +59,7 @@ Route113_EventScript_1F21D7:: @ 81F21D7
 	end
 
 Route113_EventScript_1F21EE:: @ 81F21EE
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_MADELINE_1, 0, Route113_Text_299EA6, Route113_Text_299EF9, Route113_EventScript_1F221A
+	trainerbattle_normal TRAINER_MADELINE_1, Route113_Text_299EA6, Route113_Text_299EF9, Route113_EventScript_1F221A
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route113_EventScript_1F2239
@@ -81,7 +81,7 @@ Route113_EventScript_1F2239:: @ 81F2239
 	end
 
 Route113_EventScript_1F2250:: @ 81F2250
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_LAO_1, 0, Route113_Text_29A015, Route113_Text_29A04C, Route113_EventScript_1F227C
+	trainerbattle_normal TRAINER_LAO_1, Route113_Text_29A015, Route113_Text_29A04C, Route113_EventScript_1F227C
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route113_EventScript_1F229B

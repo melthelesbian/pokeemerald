@@ -39,7 +39,7 @@ Route117_EventScript_1F39C7:: @ 81F39C7
 	end
 
 Route117_EventScript_1F39D0:: @ 81F39D0
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ISAAC_1, 0, Route117_Text_29C43F, Route117_Text_29C47A, Route117_EventScript_1F39FC
+	trainerbattle_normal TRAINER_ISAAC_1, Route117_Text_29C43F, Route117_Text_29C47A, Route117_EventScript_1F39FC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3A1B
@@ -61,7 +61,7 @@ Route117_EventScript_1F3A1B:: @ 81F3A1B
 	end
 
 Route117_EventScript_1F3A32:: @ 81F3A32
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_LYDIA_1, 0, Route117_Text_29C612, Route117_Text_29C659, Route117_EventScript_1F3A5E
+	trainerbattle_normal TRAINER_LYDIA_1, Route117_Text_29C612, Route117_Text_29C659, Route117_EventScript_1F3A5E
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3A7D
@@ -83,7 +83,7 @@ Route117_EventScript_1F3A7D:: @ 81F3A7D
 	end
 
 Route117_EventScript_1F3A94:: @ 81F3A94
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_DYLAN_1, 0, Route117_Text_29C7A5, Route117_Text_29C7EB, Route117_EventScript_1F3AC0
+	trainerbattle_normal TRAINER_DYLAN_1, Route117_Text_29C7A5, Route117_Text_29C7EB, Route117_EventScript_1F3AC0
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3ADF
@@ -105,7 +105,7 @@ Route117_EventScript_1F3ADF:: @ 81F3ADF
 	end
 
 Route117_EventScript_1F3AF6:: @ 81F3AF6
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_MARIA_1, 0, Route117_Text_29C955, Route117_Text_29C9A6, Route117_EventScript_1F3B22
+	trainerbattle_normal TRAINER_MARIA_1, Route117_Text_29C955, Route117_Text_29C9A6, Route117_EventScript_1F3B22
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route117_EventScript_1F3B41

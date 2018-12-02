@@ -251,7 +251,7 @@ Route103_EventScript_1EC6D1:: @ 81EC6D1
 	end
 
 Route103_EventScript_1EC6E8:: @ 81EC6E8
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_MIGUEL_1, 0, Route103_Text_294EDF, Route103_Text_294F21, Route103_EventScript_1EC714
+	trainerbattle_normal TRAINER_MIGUEL_1, Route103_Text_294EDF, Route103_Text_294F21, Route103_EventScript_1EC714
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route103_EventScript_1EC733

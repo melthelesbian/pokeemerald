@@ -66,7 +66,7 @@ Route112_EventScript_1F1E6A:: @ 81F1E6A
 	end
 
 Route112_EventScript_1F1E81:: @ 81F1E81
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_TRENT_1, 0, Route112_Text_299815, Route112_Text_29987C, Route112_EventScript_1F1EAD
+	trainerbattle_normal TRAINER_TRENT_1, Route112_Text_299815, Route112_Text_29987C, Route112_EventScript_1F1EAD
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route112_EventScript_1F1ECC

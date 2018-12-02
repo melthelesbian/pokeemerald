@@ -18,7 +18,7 @@ Route102_EventScript_1EC0FC:: @ 81EC0FC
 	end
 
 Route102_EventScript_1EC105:: @ 81EC105
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_CALVIN_1, 0, Route102_Text_294513, Route102_Text_29457C, Route102_EventScript_1EC146
+	trainerbattle_normal TRAINER_CALVIN_1, Route102_Text_294513, Route102_Text_29457C, Route102_EventScript_1EC146
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route102_EventScript_1EC19C

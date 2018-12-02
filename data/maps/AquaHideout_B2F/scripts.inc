@@ -24,7 +24,7 @@ AquaHideout_B2F_EventScript_233DE5:: @ 8233DE5
 	end
 
 AquaHideout_B2F_EventScript_233E09:: @ 8233E09
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_MATT, 0, AquaHideout_B2F_Text_233EDD, AquaHideout_B2F_Text_233F8D, AquaHideout_B2F_EventScript_233E25
+	trainerbattle_normal TRAINER_MATT, AquaHideout_B2F_Text_233EDD, AquaHideout_B2F_Text_233F8D, AquaHideout_B2F_EventScript_233E25
 	msgbox AquaHideout_B2F_Text_233FF2, MSGBOX_DEFAULT
 	release
 	end
@@ -67,7 +67,7 @@ AquaHideout_B2F_Movement_233E85: @ 8233E85
 	step_end
 
 AquaHideout_B2F_EventScript_233E8A:: @ 8233E8A
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_GRUNT_4, 0, AquaHideout_B2F_Text_2340B4, AquaHideout_B2F_Text_2340F0, AquaHideout_B2F_EventScript_233EA5
+	trainerbattle_normal TRAINER_GRUNT_4, AquaHideout_B2F_Text_2340B4, AquaHideout_B2F_Text_2340F0, AquaHideout_B2F_EventScript_233EA5
 	msgbox AquaHideout_B2F_Text_234112, MSGBOX_AUTOCLOSE
 	end
 

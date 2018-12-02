@@ -2,7 +2,7 @@ RustboroCity_Gym_MapScripts:: @ 8212F30
 	.byte 0
 
 RustboroCity_Gym_EventScript_212F31:: @ 8212F31
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, TRAINER_ROXANNE_1, 0, RustboroCity_Gym_Text_21362A, RustboroCity_Gym_Text_21370B, RustboroCity_Gym_EventScript_212F66
+	trainerbattle_normal TRAINER_ROXANNE_1, RustboroCity_Gym_Text_21362A, RustboroCity_Gym_Text_21370B, RustboroCity_Gym_EventScript_212F66, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq RustboroCity_Gym_EventScript_212FC8

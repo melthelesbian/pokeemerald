@@ -7,7 +7,7 @@ Route107_EventScript_1EE595:: @ 81EE595
 	end
 
 Route107_EventScript_1EE5AC:: @ 81EE5AC
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_TONY_1, 0, Route107_Text_2967AD, Route107_Text_2967D8, Route107_EventScript_1EE5D8
+	trainerbattle_normal TRAINER_TONY_1, Route107_Text_2967AD, Route107_Text_2967D8, Route107_EventScript_1EE5D8
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_eq Route107_EventScript_1EE5F7

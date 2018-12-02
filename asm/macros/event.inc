@@ -683,9 +683,17 @@
 	.endif
 	.endm
 
+	NO_MUSIC = FALSE
+
 	@ Starts a normal trainer battle
-	.macro trainerbattle_normal trainer, intro_text, lose_text
+	.macro trainerbattle_normal trainer, intro_text, lose_text, event_script=0, music=TRUE
+	.if \event_script == FALSE
 	trainerbattle TRAINER_BATTLE_NORMAL, \trainer, 0, \intro_text, \lose_text
+	.elseif \event_script != FALSE && \music == TRUE
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, \trainer, 0, \intro_text, \lose_text, \event_script
+	.else
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, \trainer, 0, \intro_text, \lose_text, \event_script
+	.endif
 	.endm
 
 	@ Starts a double trainer battle
