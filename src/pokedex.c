@@ -1138,19 +1138,20 @@ static const struct UnknownStruct2 gUnknown_0856EF14[] =
     {gUnknown_085E8B25, gTypeNames[TYPE_ICE]},
     {gUnknown_085E8B25, gTypeNames[TYPE_DRAGON]},
     {gUnknown_085E8B25, gTypeNames[TYPE_DARK]},
+    {gUnknown_085E8B25, gTypeNames[TYPE_FAIRY]},
     {NULL, NULL},
 };
 
 static const u8 gUnknown_0856EFAC[] = {0x00, 0x01};
 static const u8 gUnknown_0856EFAE[] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05};
-static const u8 gUnknown_0856EFB4[] = {0xFF, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17};
+static const u8 gUnknown_0856EFB4[] = {0xFF, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
 static const struct UnknownStruct1 gUnknown_0856EFC8[] =
 {
     {gUnknown_0856EE5C, 6, 7, 10},
     {gUnknown_0856EEB4, 8, 9, 11},
-    {gUnknown_0856EF14, 10,11, 18},
-    {gUnknown_0856EF14, 12, 13, 18},
+    {gUnknown_0856EF14, 10,11, 19},
+    {gUnknown_0856EF14, 12, 13, 19},
     {gUnknown_0856EE24, 4, 5, 6},
     {gUnknown_0856EE0C, 2, 3, 2},
 };
